@@ -68,6 +68,7 @@
                             </tr>
                         </thead>
                         <tbody>
+                            {{-- #1 --}}
                             <tr>
                                 <th scope="row">1</th>
                                 <td><b>AERATION BLOWER 1</b></td>
@@ -78,9 +79,7 @@
                             <tr>
                                 <th scope="row"></th>
                                 <td>RE-ALIGNMENT AND RETIGHTEN</td>
-                                <td> 
-                                    {{-- CODE --}}
-                               </td>
+                                <td></td>
                                 <td>
                                     <select name="status[]" class="form-select" id="">
                                         <option value="">Select Status</option>
@@ -96,9 +95,7 @@
                             <tr>
                                 <th scope="row"></th>
                                 <td>LUBRICATION</td>
-                                <td>
-                                   {{-- CODE --}}
-                                </td>
+                                <td></td>
                                 <td>
                                     <select name="status[]" class="form-select" id="">
                                         <option value="">Select Code</option>
@@ -237,6 +234,679 @@
                                     <input type="text" name="remarks[]"  class="form-control" placeholder="Remarks" >
                                 </td>
                             </tr>
+
+                            {{-- #2 --}}
+
+                            <tr>
+                                <th scope="row">2</th>
+                                <td><b>AERATION BLOWER 2</b></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <th scope="row"></th>
+                                <td>RE-ALIGNMENT AND RETIGHTEN</td>
+                                <td></td>
+                                <td>
+                                    <select name="status[]" class="form-select" id="">
+                                        <option value="">Select Status</option>
+                                        <option value="OG">OG - OPERATION AND IN GOOD CONDITION</option>
+                                        <option value="OR">OR - OPERATION BUT NEED MINOR REPAIR</option>
+                                        <option value="FR">FR - FOR REPLACEMENT</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    <input type="text" name="remarks[]"  class="form-control" placeholder="Remarks" >
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row"></th>
+                                <td>LUBRICATION</td>
+                                <td></td>
+                                <td>
+                                    <select name="status[]" class="form-select" id="">
+                                        <option value="">Select Code</option>
+                                        <option value="OG">OG - OPERATION AND IN GOOD CONDITION</option>
+                                        <option value="OR">OR - OPERATION BUT NEED MINOR REPAIR</option>
+                                        <option value="FR">FR - FOR REPLACEMENT</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    <input type="text" name="remarks[]"  class="form-control" placeholder="Remarks" >
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row"></th>
+                                <td><b>PARTS REPLACEMENT</b></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <th scope="row"></th>
+                                <td>PULLEY</td>
+                                <td></td>
+                                <td>
+                                    <select name="status[]" class="form-select" id="">
+                                        <option value="">Select Status</option>
+                                        <option value="OG">OG - OPERATION AND IN GOOD CONDITION</option>
+                                        <option value="OR">OR - OPERATION BUT NEED MINOR REPAIR</option>
+                                        <option value="NO">NO - NOT OPERATION</option>
+                                        <option value="FR">FR - FOR REPLACEMENT</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    <input type="text" name="remarks[]"  class="form-control" placeholder="Remarks" >
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row"></th>
+                                <td>BEARING</td>
+                                <td></td>
+                                <td>
+                                    <select name="status[]" class="form-select" id="">
+                                        <option value="">Select Status</option>
+                                        <option value="OG">OG - OPERATION AND IN GOOD CONDITION</option>
+                                        <option value="OR">OR - OPERATION BUT NEED MINOR REPAIR</option>
+                                        <option value="NO">NO - NOT OPERATION</option>
+                                        <option value="FR">FR - FOR REPLACEMENT</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    <input type="text" name="remarks[]"  class="form-control" placeholder="Remarks" >
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row"></th>
+                                <td>OIL SEAL</td>
+                                <td></td>
+                                <td>
+                                    <select name="status[]" class="form-select" id="">
+                                        <option value="">Select Status</option>
+                                        <option value="OG">OG - OPERATION AND IN GOOD CONDITION</option>
+                                        <option value="OR">OR - OPERATION BUT NEED MINOR REPAIR</option>
+                                        <option value="NO">NO - NOT OPERATION</option>
+                                        <option value="FR">FR - FOR REPLACEMENT</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    <input type="text" name="remarks[]"  class="form-control" placeholder="Remarks" >
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row"></th>
+                                <td>BUTTERFLY VALVES</td>
+                                <td></td>
+                                <td>
+                                    <select name="status[]" class="form-select" id="">
+                                        <option value="">Select Status</option>
+                                        <option value="OG">OG - OPERATION AND IN GOOD CONDITION</option>
+                                        <option value="OR">OR - OPERATION BUT NEED MINOR REPAIR</option>
+                                        <option value="NO">NO - NOT OPERATION</option>
+                                        <option value="FR">FR - FOR REPLACEMENT</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    <input type="text" name="remarks[]"  class="form-control" placeholder="Remarks" >
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row"></th>
+                                <td>V-BELTS</td>
+                                <td></td>
+                                <td>
+                                    <select name="status[]" class="form-select" id="">
+                                        <option value="">Select Status</option>
+                                        <option value="OG">OG - OPERATION AND IN GOOD CONDITION</option>
+                                        <option value="OR">OR - OPERATION BUT NEED MINOR REPAIR</option>
+                                        <option value="NO">NO - NOT OPERATION</option>
+                                        <option value="FR">FR - FOR REPLACEMENT</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    <input type="text" name="remarks[]"  class="form-control" placeholder="Remarks" >
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row"></th>
+                                <td>OIL LEVEL</td>
+                                <td></td>
+                                <td>
+                                    <select name="status[]" class="form-select" id="">
+                                        <option value="">Select Status</option>
+                                        <option value="HL">HL - HIGH LEVEL</option>
+                                        <option value="ML">ML - MID LEVEL</option>
+                                        <option value="LL">LL - LOW LEVEL</option>
+                                        <option value="FC">FC - FOR CHANGE OIL</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    <input type="text" name="remarks[]"  class="form-control" placeholder="Remarks" >
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row"></th>
+                                <td>ELECTRONIC COMPONENTS WITHIN MCC PANEL</td>
+                                <td></td>
+                                <td>
+                                    <select name="status[]" class="form-select" id="">
+                                        <option value="">Select Status</option>
+                                        <option value="OG">OG - OPERATION AND IN GOOD CONDITION</option>
+                                        <option value="OR">OR - OPERATION BUT NEED MINOR REPAIR</option>
+                                        <option value="NO">NO - NOT OPERATION</option>
+                                        <option value="FR">FR - FOR REPLACEMENT</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    <input type="text" name="remarks[]"  class="form-control" placeholder="Remarks" >
+                                </td>
+                            </tr>
+
+                            {{-- #3 --}}
+
+                            <tr>
+                                <th scope="row">3</th>
+                                <td><b>AERATION BLOWER 3</b></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <th scope="row"></th>
+                                <td>RE-ALIGNMENT AND RETIGHTEN</td>
+                                <td></td>
+                                <td>
+                                    <select name="status[]" class="form-select" id="">
+                                        <option value="">Select Status</option>
+                                        <option value="OG">OG - OPERATION AND IN GOOD CONDITION</option>
+                                        <option value="OR">OR - OPERATION BUT NEED MINOR REPAIR</option>
+                                        <option value="FR">FR - FOR REPLACEMENT</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    <input type="text" name="remarks[]"  class="form-control" placeholder="Remarks" >
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row"></th>
+                                <td>LUBRICATION</td>
+                                <td></td>
+                                <td>
+                                    <select name="status[]" class="form-select" id="">
+                                        <option value="">Select Code</option>
+                                        <option value="OG">OG - OPERATION AND IN GOOD CONDITION</option>
+                                        <option value="OR">OR - OPERATION BUT NEED MINOR REPAIR</option>
+                                        <option value="FR">FR - FOR REPLACEMENT</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    <input type="text" name="remarks[]"  class="form-control" placeholder="Remarks" >
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row"></th>
+                                <td><b>PARTS REPLACEMENT</b></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <th scope="row"></th>
+                                <td>PULLEY</td>
+                                <td></td>
+                                <td>
+                                    <select name="status[]" class="form-select" id="">
+                                        <option value="">Select Status</option>
+                                        <option value="OG">OG - OPERATION AND IN GOOD CONDITION</option>
+                                        <option value="OR">OR - OPERATION BUT NEED MINOR REPAIR</option>
+                                        <option value="NO">NO - NOT OPERATION</option>
+                                        <option value="FR">FR - FOR REPLACEMENT</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    <input type="text" name="remarks[]"  class="form-control" placeholder="Remarks" >
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row"></th>
+                                <td>BEARING</td>
+                                <td></td>
+                                <td>
+                                    <select name="status[]" class="form-select" id="">
+                                        <option value="">Select Status</option>
+                                        <option value="OG">OG - OPERATION AND IN GOOD CONDITION</option>
+                                        <option value="OR">OR - OPERATION BUT NEED MINOR REPAIR</option>
+                                        <option value="NO">NO - NOT OPERATION</option>
+                                        <option value="FR">FR - FOR REPLACEMENT</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    <input type="text" name="remarks[]"  class="form-control" placeholder="Remarks" >
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row"></th>
+                                <td>OIL SEAL</td>
+                                <td></td>
+                                <td>
+                                    <select name="status[]" class="form-select" id="">
+                                        <option value="">Select Status</option>
+                                        <option value="OG">OG - OPERATION AND IN GOOD CONDITION</option>
+                                        <option value="OR">OR - OPERATION BUT NEED MINOR REPAIR</option>
+                                        <option value="NO">NO - NOT OPERATION</option>
+                                        <option value="FR">FR - FOR REPLACEMENT</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    <input type="text" name="remarks[]"  class="form-control" placeholder="Remarks" >
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row"></th>
+                                <td>BUTTERFLY VALVES</td>
+                                <td></td>
+                                <td>
+                                    <select name="status[]" class="form-select" id="">
+                                        <option value="">Select Status</option>
+                                        <option value="OG">OG - OPERATION AND IN GOOD CONDITION</option>
+                                        <option value="OR">OR - OPERATION BUT NEED MINOR REPAIR</option>
+                                        <option value="NO">NO - NOT OPERATION</option>
+                                        <option value="FR">FR - FOR REPLACEMENT</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    <input type="text" name="remarks[]"  class="form-control" placeholder="Remarks" >
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row"></th>
+                                <td>V-BELTS</td>
+                                <td></td>
+                                <td>
+                                    <select name="status[]" class="form-select" id="">
+                                        <option value="">Select Status</option>
+                                        <option value="OG">OG - OPERATION AND IN GOOD CONDITION</option>
+                                        <option value="OR">OR - OPERATION BUT NEED MINOR REPAIR</option>
+                                        <option value="NO">NO - NOT OPERATION</option>
+                                        <option value="FR">FR - FOR REPLACEMENT</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    <input type="text" name="remarks[]"  class="form-control" placeholder="Remarks" >
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row"></th>
+                                <td>OIL LEVEL</td>
+                                <td></td>
+                                <td>
+                                    <select name="status[]" class="form-select" id="">
+                                        <option value="">Select Status</option>
+                                        <option value="HL">HL - HIGH LEVEL</option>
+                                        <option value="ML">ML - MID LEVEL</option>
+                                        <option value="LL">LL - LOW LEVEL</option>
+                                        <option value="FC">FC - FOR CHANGE OIL</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    <input type="text" name="remarks[]"  class="form-control" placeholder="Remarks" >
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row"></th>
+                                <td>ELECTRONIC COMPONENTS WITHIN MCC PANEL</td>
+                                <td></td>
+                                <td>
+                                    <select name="status[]" class="form-select" id="">
+                                        <option value="">Select Status</option>
+                                        <option value="OG">OG - OPERATION AND IN GOOD CONDITION</option>
+                                        <option value="OR">OR - OPERATION BUT NEED MINOR REPAIR</option>
+                                        <option value="NO">NO - NOT OPERATION</option>
+                                        <option value="FR">FR - FOR REPLACEMENT</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    <input type="text" name="remarks[]"  class="form-control" placeholder="Remarks" >
+                                </td>
+                            </tr>
+
+                             {{-- #4 --}}
+
+                             <tr>
+                                <th scope="row">4</th>
+                                <td><b>AERATION BLOWER 4</b></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <th scope="row"></th>
+                                <td>RE-ALIGNMENT AND RETIGHTEN</td>
+                                <td></td>
+                                <td>
+                                    <select name="status[]" class="form-select" id="">
+                                        <option value="">Select Status</option>
+                                        <option value="OG">OG - OPERATION AND IN GOOD CONDITION</option>
+                                        <option value="OR">OR - OPERATION BUT NEED MINOR REPAIR</option>
+                                        <option value="FR">FR - FOR REPLACEMENT</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    <input type="text" name="remarks[]"  class="form-control" placeholder="Remarks" >
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row"></th>
+                                <td>LUBRICATION</td>
+                                <td></td>
+                                <td>
+                                    <select name="status[]" class="form-select" id="">
+                                        <option value="">Select Code</option>
+                                        <option value="OG">OG - OPERATION AND IN GOOD CONDITION</option>
+                                        <option value="OR">OR - OPERATION BUT NEED MINOR REPAIR</option>
+                                        <option value="FR">FR - FOR REPLACEMENT</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    <input type="text" name="remarks[]"  class="form-control" placeholder="Remarks" >
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row"></th>
+                                <td><b>PARTS REPLACEMENT</b></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <th scope="row"></th>
+                                <td>PULLEY</td>
+                                <td></td>
+                                <td>
+                                    <select name="status[]" class="form-select" id="">
+                                        <option value="">Select Status</option>
+                                        <option value="OG">OG - OPERATION AND IN GOOD CONDITION</option>
+                                        <option value="OR">OR - OPERATION BUT NEED MINOR REPAIR</option>
+                                        <option value="NO">NO - NOT OPERATION</option>
+                                        <option value="FR">FR - FOR REPLACEMENT</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    <input type="text" name="remarks[]"  class="form-control" placeholder="Remarks" >
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row"></th>
+                                <td>BEARING</td>
+                                <td></td>
+                                <td>
+                                    <select name="status[]" class="form-select" id="">
+                                        <option value="">Select Status</option>
+                                        <option value="OG">OG - OPERATION AND IN GOOD CONDITION</option>
+                                        <option value="OR">OR - OPERATION BUT NEED MINOR REPAIR</option>
+                                        <option value="NO">NO - NOT OPERATION</option>
+                                        <option value="FR">FR - FOR REPLACEMENT</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    <input type="text" name="remarks[]"  class="form-control" placeholder="Remarks" >
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row"></th>
+                                <td>OIL SEAL</td>
+                                <td></td>
+                                <td>
+                                    <select name="status[]" class="form-select" id="">
+                                        <option value="">Select Status</option>
+                                        <option value="OG">OG - OPERATION AND IN GOOD CONDITION</option>
+                                        <option value="OR">OR - OPERATION BUT NEED MINOR REPAIR</option>
+                                        <option value="NO">NO - NOT OPERATION</option>
+                                        <option value="FR">FR - FOR REPLACEMENT</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    <input type="text" name="remarks[]"  class="form-control" placeholder="Remarks" >
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row"></th>
+                                <td>BUTTERFLY VALVES</td>
+                                <td></td>
+                                <td>
+                                    <select name="status[]" class="form-select" id="">
+                                        <option value="">Select Status</option>
+                                        <option value="OG">OG - OPERATION AND IN GOOD CONDITION</option>
+                                        <option value="OR">OR - OPERATION BUT NEED MINOR REPAIR</option>
+                                        <option value="NO">NO - NOT OPERATION</option>
+                                        <option value="FR">FR - FOR REPLACEMENT</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    <input type="text" name="remarks[]"  class="form-control" placeholder="Remarks" >
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row"></th>
+                                <td>V-BELTS</td>
+                                <td></td>
+                                <td>
+                                    <select name="status[]" class="form-select" id="">
+                                        <option value="">Select Status</option>
+                                        <option value="OG">OG - OPERATION AND IN GOOD CONDITION</option>
+                                        <option value="OR">OR - OPERATION BUT NEED MINOR REPAIR</option>
+                                        <option value="NO">NO - NOT OPERATION</option>
+                                        <option value="FR">FR - FOR REPLACEMENT</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    <input type="text" name="remarks[]"  class="form-control" placeholder="Remarks" >
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row"></th>
+                                <td>OIL LEVEL</td>
+                                <td></td>
+                                <td>
+                                    <select name="status[]" class="form-select" id="">
+                                        <option value="">Select Status</option>
+                                        <option value="HL">HL - HIGH LEVEL</option>
+                                        <option value="ML">ML - MID LEVEL</option>
+                                        <option value="LL">LL - LOW LEVEL</option>
+                                        <option value="FC">FC - FOR CHANGE OIL</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    <input type="text" name="remarks[]"  class="form-control" placeholder="Remarks" >
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row"></th>
+                                <td>ELECTRONIC COMPONENTS WITHIN MCC PANEL</td>
+                                <td></td>
+                                <td>
+                                    <select name="status[]" class="form-select" id="">
+                                        <option value="">Select Status</option>
+                                        <option value="OG">OG - OPERATION AND IN GOOD CONDITION</option>
+                                        <option value="OR">OR - OPERATION BUT NEED MINOR REPAIR</option>
+                                        <option value="NO">NO - NOT OPERATION</option>
+                                        <option value="FR">FR - FOR REPLACEMENT</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    <input type="text" name="remarks[]"  class="form-control" placeholder="Remarks" >
+                                </td>
+                            </tr>
+
+                            {{-- #5 --}}
+
+                             <tr>
+                                <th scope="row">5</th>
+                                <td><b>AERATION BLOWER 5</b></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <th scope="row"></th>
+                                <td>RE-ALIGNMENT AND RETIGHTEN</td>
+                                <td></td>
+                                <td>
+                                    <select name="status[]" class="form-select" id="">
+                                        <option value="">Select Status</option>
+                                        <option value="OG">OG - OPERATION AND IN GOOD CONDITION</option>
+                                        <option value="OR">OR - OPERATION BUT NEED MINOR REPAIR</option>
+                                        <option value="FR">FR - FOR REPLACEMENT</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    <input type="text" name="remarks[]"  class="form-control" placeholder="Remarks" >
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row"></th>
+                                <td>LUBRICATION</td>
+                                <td></td>
+                                <td>
+                                    <select name="status[]" class="form-select" id="">
+                                        <option value="">Select Code</option>
+                                        <option value="OG">OG - OPERATION AND IN GOOD CONDITION</option>
+                                        <option value="OR">OR - OPERATION BUT NEED MINOR REPAIR</option>
+                                        <option value="FR">FR - FOR REPLACEMENT</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    <input type="text" name="remarks[]"  class="form-control" placeholder="Remarks" >
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row"></th>
+                                <td><b>PARTS REPLACEMENT</b></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <th scope="row"></th>
+                                <td>PULLEY</td>
+                                <td></td>
+                                <td>
+                                    <select name="status[]" class="form-select" id="">
+                                        <option value="">Select Status</option>
+                                        <option value="OG">OG - OPERATION AND IN GOOD CONDITION</option>
+                                        <option value="OR">OR - OPERATION BUT NEED MINOR REPAIR</option>
+                                        <option value="NO">NO - NOT OPERATION</option>
+                                        <option value="FR">FR - FOR REPLACEMENT</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    <input type="text" name="remarks[]"  class="form-control" placeholder="Remarks" >
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row"></th>
+                                <td>BEARING</td>
+                                <td></td>
+                                <td>
+                                    <select name="status[]" class="form-select" id="">
+                                        <option value="">Select Status</option>
+                                        <option value="OG">OG - OPERATION AND IN GOOD CONDITION</option>
+                                        <option value="OR">OR - OPERATION BUT NEED MINOR REPAIR</option>
+                                        <option value="NO">NO - NOT OPERATION</option>
+                                        <option value="FR">FR - FOR REPLACEMENT</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    <input type="text" name="remarks[]"  class="form-control" placeholder="Remarks" >
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row"></th>
+                                <td>OIL SEAL</td>
+                                <td></td>
+                                <td>
+                                    <select name="status[]" class="form-select" id="">
+                                        <option value="">Select Status</option>
+                                        <option value="OG">OG - OPERATION AND IN GOOD CONDITION</option>
+                                        <option value="OR">OR - OPERATION BUT NEED MINOR REPAIR</option>
+                                        <option value="NO">NO - NOT OPERATION</option>
+                                        <option value="FR">FR - FOR REPLACEMENT</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    <input type="text" name="remarks[]"  class="form-control" placeholder="Remarks" >
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row"></th>
+                                <td>BUTTERFLY VALVES</td>
+                                <td></td>
+                                <td>
+                                    <select name="status[]" class="form-select" id="">
+                                        <option value="">Select Status</option>
+                                        <option value="OG">OG - OPERATION AND IN GOOD CONDITION</option>
+                                        <option value="OR">OR - OPERATION BUT NEED MINOR REPAIR</option>
+                                        <option value="NO">NO - NOT OPERATION</option>
+                                        <option value="FR">FR - FOR REPLACEMENT</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    <input type="text" name="remarks[]"  class="form-control" placeholder="Remarks" >
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row"></th>
+                                <td>V-BELTS</td>
+                                <td></td>
+                                <td>
+                                    <select name="status[]" class="form-select" id="">
+                                        <option value="">Select Status</option>
+                                        <option value="OG">OG - OPERATION AND IN GOOD CONDITION</option>
+                                        <option value="OR">OR - OPERATION BUT NEED MINOR REPAIR</option>
+                                        <option value="NO">NO - NOT OPERATION</option>
+                                        <option value="FR">FR - FOR REPLACEMENT</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    <input type="text" name="remarks[]"  class="form-control" placeholder="Remarks" >
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row"></th>
+                                <td>OIL LEVEL</td>
+                                <td></td>
+                                <td>
+                                    <select name="status[]" class="form-select" id="">
+                                        <option value="">Select Status</option>
+                                        <option value="HL">HL - HIGH LEVEL</option>
+                                        <option value="ML">ML - MID LEVEL</option>
+                                        <option value="LL">LL - LOW LEVEL</option>
+                                        <option value="FC">FC - FOR CHANGE OIL</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    <input type="text" name="remarks[]"  class="form-control" placeholder="Remarks" >
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row"></th>
+                                <td>ELECTRONIC COMPONENTS WITHIN MCC PANEL</td>
+                                <td></td>
+                                <td>
+                                    <select name="status[]" class="form-select" id="">
+                                        <option value="">Select Status</option>
+                                        <option value="OG">OG - OPERATION AND IN GOOD CONDITION</option>
+                                        <option value="OR">OR - OPERATION BUT NEED MINOR REPAIR</option>
+                                        <option value="NO">NO - NOT OPERATION</option>
+                                        <option value="FR">FR - FOR REPLACEMENT</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    <input type="text" name="remarks[]"  class="form-control" placeholder="Remarks" >
+                                </td>
+                            </tr>
+
                         </tbody>
                     </table>
                </div>
@@ -287,13 +957,14 @@
                               </tr>
                           </thead>
                           <tbody>
-                              <tr>
+                                 {{-- #1 --}}
+                                <tr>
                                   <th scope="row">1</th>
                                   <td><b>AERATION BLOWER 1</b></td>
                                   <td></td>
                                   <td></td>
                                   <td></td>
-                                  <tr>
+                                <tr>
                                     <th scope="row"></th>
                                     <td>RE-ALIGNMENT AND RETIGHTEN</td>
                                     <td><span id="code_1"></span></td>
@@ -363,6 +1034,322 @@
                                     <td><span id="status_9"></span></td>
                                     <td><span  id="remarks_9"></span></td>
                                 </tr>
+
+                                {{--  #2  --}}
+
+                                <tr>
+                                  <th scope="row">2</th>
+                                  <td><b>AERATION BLOWER 2</b></td>
+                                  <td></td>
+                                  <td></td>
+                                  <td></td>
+                                <tr>
+                                    <th scope="row"></th>
+                                    <td>RE-ALIGNMENT AND RETIGHTEN</td>
+                                    <td><span id="code_10"></span></td>
+                                    <td><span id="status_10"></span></td>
+                                    <td><span id="remarks_10"></span></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row"></th>
+                                    <td>LUBRICATION</td>
+                                    <td><span id="code_11"></span></td>
+                                    <td><span id="status_11"></span></td>
+                                    <td><span id="remarks_11"></span></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row"></th>
+                                    <td><b>PARTS REPLACEMENT</b></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row"></th>
+                                    <td>PULLEY</td>
+                                    <td><span  id="code_12"></span></td>
+                                    <td><span id="status_12"></span></td>
+                                    <td><span  id="remarks_12"></span></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row"></th>
+                                    <td>BEARING</td>
+                                    <td><span  id="code_13"></span></td>
+                                    <td><span id="status_13"></span></td>
+                                    <td><span  id="remarks_13"></span> </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row"></th>
+                                    <td>OIL SEAL</td>
+                                    <td> <span  id="code_14"></span></td>
+                                    <td><span id="status_14"></span></td>
+                                    <td> <span  id="remarks_14"></span></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row"></th>
+                                    <td>BUTTERFLY VALVES</td>
+                                    <td><span  id="code_15"></span></td>
+                                    <td><span id="status_15"></span></td>
+                                    <td><span  id="remarks_15"></span></td>
+                                </tr>   
+                                <tr>
+                                    <th scope="row"></th>
+                                    <td>V-BELTS</td>
+                                    <td><span  id="code_16"></span></td>
+                                    <td><span id="status_16"></span></td>
+                                    <td> <span  id="remarks_16"></span></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row"></th>
+                                    <td>OIL LEVEL</td>
+                                    <td><span  id="code_17"></span></td>
+                                    <td><span id="status_17"></span></td>
+                                    <td><span  id="remarks_17"></span></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row"></th>
+                                    <td>ELECTRONIC COMPONENTS WITHIN MCC PANEL</td>
+                                    <td><span  id="code_18"></span></td>
+                                    <td><span id="status_18"></span></td>
+                                    <td><span  id="remarks_18"></span></td>
+                                </tr>
+
+                                {{-- #3 --}}
+
+                                <tr>
+                                  <th scope="row">3</th>
+                                  <td><b>AERATION BLOWER 3</b></td>
+                                  <td></td>
+                                  <td></td>
+                                  <td></td>
+                                <tr>
+                                    <th scope="row"></th>
+                                    <td>RE-ALIGNMENT AND RETIGHTEN</td>
+                                    <td><span id="code_19"></span></td>
+                                    <td><span id="status_19"></span></td>
+                                    <td><span id="remarks_19"></span></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row"></th>
+                                    <td>LUBRICATION</td>
+                                    <td><span id="code_20"></span></td>
+                                    <td><span id="status_20"></span></td>
+                                    <td><span id="remarks_20"></span></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row"></th>
+                                    <td><b>PARTS REPLACEMENT</b></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row"></th>
+                                    <td>PULLEY</td>
+                                    <td><span  id="code_21"></span></td>
+                                    <td><span id="status_21"></span></td>
+                                    <td><span  id="remarks_21"></span></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row"></th>
+                                    <td>BEARING</td>
+                                    <td><span  id="code_22"></span></td>
+                                    <td><span id="status_22"></span></td>
+                                    <td><span  id="remarks_22"></span> </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row"></th>
+                                    <td>OIL SEAL</td>
+                                    <td> <span  id="code_23"></span></td>
+                                    <td><span id="status_23"></span></td>
+                                    <td> <span  id="remarks_23"></span></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row"></th>
+                                    <td>BUTTERFLY VALVES</td>
+                                    <td><span  id="code_24"></span></td>
+                                    <td><span  id="status_24"></span></td>
+                                    <td><span  id="remarks_24"></span></td>
+                                </tr>   
+                                <tr>
+                                    <th scope="row"></th>
+                                    <td>V-BELTS</td>
+                                    <td><span  id="code_25"></span></td>
+                                    <td><span id="status_25"></span></td>
+                                    <td> <span  id="remarks_25"></span></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row"></th>
+                                    <td>OIL LEVEL</td>
+                                    <td><span  id="code_26"></span></td>
+                                    <td><span id="status_26"></span></td>
+                                    <td><span  id="remarks_26"></span></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row"></th>
+                                    <td>ELECTRONIC COMPONENTS WITHIN MCC PANEL</td>
+                                    <td><span  id="code_27"></span></td>
+                                    <td><span  id="status_27"></span></td>
+                                    <td><span  id="remarks_27"></span></td>
+                                </tr>
+
+                                {{-- #4 --}}
+
+                                <tr>
+                                  <th scope="row">4</th>
+                                  <td><b>AERATION BLOWER 4</b></td>
+                                  <td></td>
+                                  <td></td>
+                                  <td></td>
+                                <tr>
+                                    <th scope="row"></th>
+                                    <td>RE-ALIGNMENT AND RETIGHTEN</td>
+                                    <td><span id="code_28"></span></td>
+                                    <td><span id="status_28"></span></td>
+                                    <td><span id="remarks_28"></span></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row"></th>
+                                    <td>LUBRICATION</td>
+                                    <td><span id="code_29"></span></td>
+                                    <td><span id="status_29"></span></td>
+                                    <td><span id="remarks_29"></span></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row"></th>
+                                    <td><b>PARTS REPLACEMENT</b></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row"></th>
+                                    <td>PULLEY</td>
+                                    <td><span  id="code_30"></span></td>
+                                    <td><span id="status_30"></span></td>
+                                    <td><span  id="remarks_30"></span></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row"></th>
+                                    <td>BEARING</td>
+                                    <td><span  id="code_31"></span></td>
+                                    <td><span id="status_31"></span></td>
+                                    <td><span  id="remarks_31"></span> </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row"></th>
+                                    <td>OIL SEAL</td>
+                                    <td> <span  id="code_32"></span></td>
+                                    <td><span id="status_32"></span></td>
+                                    <td> <span  id="remarks_32"></span></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row"></th>
+                                    <td>BUTTERFLY VALVES</td>
+                                    <td><span  id="code_33"></span></td>
+                                    <td><span  id="status_33"></span></td>
+                                    <td><span  id="remarks_33"></span></td>
+                                </tr>   
+                                <tr>
+                                    <th scope="row"></th>
+                                    <td>V-BELTS</td>
+                                    <td><span  id="code_34"></span></td>
+                                    <td><span id="status_34"></span></td>
+                                    <td> <span  id="remarks_34"></span></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row"></th>
+                                    <td>OIL LEVEL</td>
+                                    <td><span  id="code_35"></span></td>
+                                    <td><span id="status_35"></span></td>
+                                    <td><span  id="remarks_35"></span></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row"></th>
+                                    <td>ELECTRONIC COMPONENTS WITHIN MCC PANEL</td>
+                                    <td><span  id="code_36"></span></td>
+                                    <td><span  id="status_36"></span></td>
+                                    <td><span  id="remarks_36"></span></td>
+                                </tr>
+
+                                {{-- #5 --}}
+
+                                 <tr>
+                                  <th scope="row">5</th>
+                                  <td><b>AERATION BLOWER 5</b></td>
+                                  <td></td>
+                                  <td></td>
+                                  <td></td>
+                                <tr>
+                                    <th scope="row"></th>
+                                    <td>RE-ALIGNMENT AND RETIGHTEN</td>
+                                    <td><span id="code_37"></span></td>
+                                    <td><span id="status_37"></span></td>
+                                    <td><span id="remarks_37"></span></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row"></th>
+                                    <td>LUBRICATION</td>
+                                    <td><span id="code_38"></span></td>
+                                    <td><span id="status_38"></span></td>
+                                    <td><span id="remarks_38"></span></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row"></th>
+                                    <td><b>PARTS REPLACEMENT</b></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row"></th>
+                                    <td>PULLEY</td>
+                                    <td><span  id="code_39"></span></td>
+                                    <td><span id="status_39"></span></td>
+                                    <td><span  id="remarks_39"></span></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row"></th>
+                                    <td>BEARING</td>
+                                    <td><span  id="code_40"></span></td>
+                                    <td><span id="status_40"></span></td>
+                                    <td><span  id="remarks_40"></span> </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row"></th>
+                                    <td>OIL SEAL</td>
+                                    <td> <span  id="code_41"></span></td>
+                                    <td><span id="status_41"></span></td>
+                                    <td> <span  id="remarks_41"></span></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row"></th>
+                                    <td>BUTTERFLY VALVES</td>
+                                    <td><span  id="code_42"></span></td>
+                                    <td><span  id="status_42"></span></td>
+                                    <td><span  id="remarks_42"></span></td>
+                                </tr>   
+                                <tr>
+                                    <th scope="row"></th>
+                                    <td>V-BELTS</td>
+                                    <td><span  id="code_43"></span></td>
+                                    <td><span id="status_43"></span></td>
+                                    <td> <span  id="remarks_43"></span></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row"></th>
+                                    <td>OIL LEVEL</td>
+                                    <td><span  id="code_44"></span></td>
+                                    <td><span id="status_44"></span></td>
+                                    <td><span  id="remarks_44"></span></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row"></th>
+                                    <td>ELECTRONIC COMPONENTS WITHIN MCC PANEL</td>
+                                    <td><span  id="code_45"></span></td>
+                                    <td><span  id="status_45"></span></td>
+                                    <td><span  id="remarks_45"></span></td>
+                                </tr>
                           </tbody>
                       </table>
                  </div>
@@ -371,7 +1358,6 @@
                   <button type="button" class="btn btn-secondary"  data-bs-dismiss="modal" id="close_modal">Close</button>
                   <button  id="btnPrint" class="btn btn-primary">Print</button>
                   <button id="btnExportExcel" class="btn btn-success">Export to Excel</button>
-
               </div>
           </form>
         </div>
