@@ -75,5 +75,6 @@ Route::middleware('auth')->group(function () {
     Route::post('/monitoring/store', [MonitoringReportController::class, 'store'])->name('monitoring_report.store');
     Route::get('/monitoring/fetch', [MonitoringReportController::class, 'fetch'])->name('monitoring_report.fetch');
     Route::get('/monitoring/edit', [MonitoringReportController::class, 'edit'])->name('monitoring_report.edit');
+    
 
 });

@@ -741,7 +741,7 @@
 
                             {{-- #5 --}}
 
-                             <tr>
+                            <tr>
                                 <th scope="row">5</th>
                                 <td><b>AERATION BLOWER 5</b></td>
                                 <td></td>
@@ -906,6 +906,996 @@
                                     <input type="text" name="remarks[]"  class="form-control" placeholder="Remarks" >
                                 </td>
                             </tr>
+
+                            {{-- PUMP 1 --}}
+                            <tr>
+                                <th scope="row">6</th>
+                                <td><b>SBR 1 EQUALIZATION PUMP 1</b></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <th scope="row"></th>
+                                <td>OPERATION OF VALVES AND PIPING CONNECTION</td>
+                                <td></td>
+                                <td>
+                                    <select name="status[]" class="form-select" id="">
+                                       <option value="">Select Status</option>
+                                        <option value="OG">OG - OPERATION AND IN GOOD CONDITION</option>
+                                        <option value="OR">OR - OPERATION BUT NEED MINOR REPAIR</option>
+                                        <option value="NO">NO - NOT OPERATION</option>
+                                        <option value="FR">FR - FOR REPLACEMENT</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    <input type="text" name="remarks[]"  class="form-control" placeholder="Remarks" >
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row"></th>
+                                <td>ELECTRIC COMPONENTS WITHIN MCC PANEL</td>
+                                <td></td>
+                                <td>
+                                    <select name="status[]" class="form-select" id="">
+                                       <option value="">Select Status</option>
+                                        <option value="OG">OG - OPERATION AND IN GOOD CONDITION</option>
+                                        <option value="OR">OR - OPERATION BUT NEED MINOR REPAIR</option>
+                                        <option value="NO">NO - NOT OPERATION</option>
+                                        <option value="FR">FR - FOR REPLACEMENT</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    <input type="text" name="remarks[]"  class="form-control" placeholder="Remarks" >
+                                </td>
+                            </tr>
+
+                            {{-- Pump 2 --}}
+                            <tr>
+                                <th scope="row">7</th>
+                                <td><b>SBR 1 EQUALIZATION PUMP 2</b></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <th scope="row"></th>
+                                <td>OPERATION OF VALVES AND PIPING CONNECTION</td>
+                                <td></td>
+                                <td>
+                                    <select name="status[]" class="form-select" id="">
+                                       <option value="">Select Status</option>
+                                        <option value="OG">OG - OPERATION AND IN GOOD CONDITION</option>
+                                        <option value="OR">OR - OPERATION BUT NEED MINOR REPAIR</option>
+                                        <option value="NO">NO - NOT OPERATION</option>
+                                        <option value="FR">FR - FOR REPLACEMENT</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    <input type="text" name="remarks[]"  class="form-control" placeholder="Remarks" >
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row"></th>
+                                <td>ELECTRIC COMPONENTS WITHIN MCC PANEL</td>
+                                <td></td>
+                                <td>
+                                    <select name="status[]" class="form-select" id="">
+                                       <option value="">Select Status</option>
+                                        <option value="OG">OG - OPERATION AND IN GOOD CONDITION</option>
+                                        <option value="OR">OR - OPERATION BUT NEED MINOR REPAIR</option>
+                                        <option value="NO">NO - NOT OPERATION</option>
+                                        <option value="FR">FR - FOR REPLACEMENT</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    <input type="text" name="remarks[]"  class="form-control" placeholder="Remarks" >
+                                </td>
+                            </tr>
+
+                            {{-- Pump 3 --}}
+                              <tr>
+                                <th scope="row">8</th>
+                                <td><b>SBR 2 EQUALIZATION PUMP 3</b></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <th scope="row"></th>
+                                <td>OPERATION OF VALVES AND PIPING CONNECTION</td>
+                                <td></td>
+                                <td>
+                                    <select name="status[]" class="form-select" id="">
+                                       <option value="">Select Status</option>
+                                        <option value="OG">OG - OPERATION AND IN GOOD CONDITION</option>
+                                        <option value="OR">OR - OPERATION BUT NEED MINOR REPAIR</option>
+                                        <option value="NO">NO - NOT OPERATION</option>
+                                        <option value="FR">FR - FOR REPLACEMENT</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    <input type="text" name="remarks[]"  class="form-control" placeholder="Remarks" >
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row"></th>
+                                <td>ELECTRIC COMPONENTS WITHIN MCC PANEL</td>
+                                <td></td>
+                                <td>
+                                    <select name="status[]" class="form-select" id="">
+                                       <option value="">Select Status</option>
+                                        <option value="OG">OG - OPERATION AND IN GOOD CONDITION</option>
+                                        <option value="OR">OR - OPERATION BUT NEED MINOR REPAIR</option>
+                                        <option value="NO">NO - NOT OPERATION</option>
+                                        <option value="FR">FR - FOR REPLACEMENT</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    <input type="text" name="remarks[]"  class="form-control" placeholder="Remarks" >
+                                </td>
+                            </tr>
+
+                            {{--  PUMP 4 --}}
+
+                             <tr>
+                                <th scope="row">9</th>
+                                <td><b>SBR 2 EQUALIZATION PUMP 4</b></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <th scope="row"></th>
+                                <td>OPERATION OF VALVES AND PIPING CONNECTION</td>
+                                <td></td>
+                                <td>
+                                    <select name="status[]" class="form-select" id="">
+                                       <option value="">Select Status</option>
+                                        <option value="OG">OG - OPERATION AND IN GOOD CONDITION</option>
+                                        <option value="OR">OR - OPERATION BUT NEED MINOR REPAIR</option>
+                                        <option value="NO">NO - NOT OPERATION</option>
+                                        <option value="FR">FR - FOR REPLACEMENT</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    <input type="text" name="remarks[]"  class="form-control" placeholder="Remarks" >
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row"></th>
+                                <td>ELECTRIC COMPONENTS WITHIN MCC PANEL</td>
+                                <td></td>
+                                <td>
+                                    <select name="status[]" class="form-select" id="">
+                                       <option value="">Select Status</option>
+                                        <option value="OG">OG - OPERATION AND IN GOOD CONDITION</option>
+                                        <option value="OR">OR - OPERATION BUT NEED MINOR REPAIR</option>
+                                        <option value="NO">NO - NOT OPERATION</option>
+                                        <option value="FR">FR - FOR REPLACEMENT</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    <input type="text" name="remarks[]"  class="form-control" placeholder="Remarks" >
+                                </td>
+                            </tr>
+
+                            {{-- Decanter pump 1 --}}
+
+                            <tr>
+                                <th scope="row">10</th>
+                                <td><b>SBR 1 - DECANTER PUMP 1</b></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <th scope="row"></th>
+                                <td>OPERATION OF VALVES AND PIPING CONNECTION</td>
+                                <td></td>
+                                <td>
+                                    <select name="status[]" class="form-select" id="">
+                                       <option value="">Select Status</option>
+                                        <option value="OG">OG - OPERATION AND IN GOOD CONDITION</option>
+                                        <option value="OR">OR - OPERATION BUT NEED MINOR REPAIR</option>
+                                        <option value="NO">NO - NOT OPERATION</option>
+                                        <option value="FR">FR - FOR REPLACEMENT</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    <input type="text" name="remarks[]"  class="form-control" placeholder="Remarks" >
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row"></th>
+                                <td>ELECTRIC COMPONENTS WITHIN MCC PANEL</td>
+                                <td></td>
+                                <td>
+                                    <select name="status[]" class="form-select" id="">
+                                       <option value="">Select Status</option>
+                                        <option value="OG">OG - OPERATION AND IN GOOD CONDITION</option>
+                                        <option value="OR">OR - OPERATION BUT NEED MINOR REPAIR</option>
+                                        <option value="NO">NO - NOT OPERATION</option>
+                                        <option value="FR">FR - FOR REPLACEMENT</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    <input type="text" name="remarks[]"  class="form-control" placeholder="Remarks" >
+                                </td>
+                            </tr>
+                             {{-- Decanter pump 2  --}}
+                            <tr>
+                                <th scope="row">11</th>
+                                <td><b>SBR 2 - DECANTER PUMP 2</b></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <th scope="row"></th>
+                                <td>OPERATION OF VALVES AND PIPING CONNECTION</td>
+                                <td></td>
+                                <td>
+                                    <select name="status[]" class="form-select" id="">
+                                       <option value="">Select Status</option>
+                                        <option value="OG">OG - OPERATION AND IN GOOD CONDITION</option>
+                                        <option value="OR">OR - OPERATION BUT NEED MINOR REPAIR</option>
+                                        <option value="NO">NO - NOT OPERATION</option>
+                                        <option value="FR">FR - FOR REPLACEMENT</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    <input type="text" name="remarks[]"  class="form-control" placeholder="Remarks" >
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row"></th>
+                                <td>ELECTRIC COMPONENTS WITHIN MCC PANEL</td>
+                                <td></td>
+                                <td>
+                                    <select name="status[]" class="form-select" id="">
+                                       <option value="">Select Status</option>
+                                        <option value="OG">OG - OPERATION AND IN GOOD CONDITION</option>
+                                        <option value="OR">OR - OPERATION BUT NEED MINOR REPAIR</option>
+                                        <option value="NO">NO - NOT OPERATION</option>
+                                        <option value="FR">FR - FOR REPLACEMENT</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    <input type="text" name="remarks[]"  class="form-control" placeholder="Remarks" >
+                                </td>
+                            </tr>
+
+                            {{-- CCT PUMP 1 --}}
+                            <tr>
+                                <th scope="row">12</th>
+                                <td><b>CCT PUMP 1</b></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <th scope="row"></th>
+                                <td>OPERATION OF VALVES AND PIPING CONNECTION</td>
+                                <td></td>
+                                <td>
+                                    <select name="status[]" class="form-select" id="">
+                                       <option value="">Select Status</option>
+                                        <option value="OG">OG - OPERATION AND IN GOOD CONDITION</option>
+                                        <option value="OR">OR - OPERATION BUT NEED MINOR REPAIR</option>
+                                        <option value="NO">NO - NOT OPERATION</option>
+                                        <option value="FR">FR - FOR REPLACEMENT</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    <input type="text" name="remarks[]"  class="form-control" placeholder="Remarks" >
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row"></th>
+                                <td>ELECTRIC COMPONENTS WITHIN MCC PANEL</td>
+                                <td></td>
+                                <td>
+                                    <select name="status[]" class="form-select" id="">
+                                       <option value="">Select Status</option>
+                                        <option value="OG">OG - OPERATION AND IN GOOD CONDITION</option>
+                                        <option value="OR">OR - OPERATION BUT NEED MINOR REPAIR</option>
+                                        <option value="NO">NO - NOT OPERATION</option>
+                                        <option value="FR">FR - FOR REPLACEMENT</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    <input type="text" name="remarks[]"  class="form-control" placeholder="Remarks" >
+                                </td>
+                            </tr>
+
+                            {{-- CCT PUMP 2 --}}
+
+                            <tr>
+                                <th scope="row">13</th>
+                                <td><b>CCT PUMP 2</b></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <th scope="row"></th>
+                                <td>OPERATION OF VALVES AND PIPING CONNECTION</td>
+                                <td></td>
+                                <td>
+                                    <select name="status[]" class="form-select" id="">
+                                       <option value="">Select Status</option>
+                                        <option value="OG">OG - OPERATION AND IN GOOD CONDITION</option>
+                                        <option value="OR">OR - OPERATION BUT NEED MINOR REPAIR</option>
+                                        <option value="NO">NO - NOT OPERATION</option>
+                                        <option value="FR">FR - FOR REPLACEMENT</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    <input type="text" name="remarks[]"  class="form-control" placeholder="Remarks" >
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row"></th>
+                                <td>ELECTRIC COMPONENTS WITHIN MCC PANEL</td>
+                                <td></td>
+                                <td>
+                                    <select name="status[]" class="form-select" id="">
+                                       <option value="">Select Status</option>
+                                        <option value="OG">OG - OPERATION AND IN GOOD CONDITION</option>
+                                        <option value="OR">OR - OPERATION BUT NEED MINOR REPAIR</option>
+                                        <option value="NO">NO - NOT OPERATION</option>
+                                        <option value="FR">FR - FOR REPLACEMENT</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    <input type="text" name="remarks[]"  class="form-control" placeholder="Remarks" >
+                                </td>
+                            </tr>
+
+                            {{-- CCT PUMP 3 --}}
+                            <tr>
+                                <th scope="row">14</th>
+                                <td><b>CCT PUMP 3</b></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <th scope="row"></th>
+                                <td>OPERATION OF VALVES AND PIPING CONNECTION</td>
+                                <td></td>
+                                <td>
+                                    <select name="status[]" class="form-select" id="">
+                                       <option value="">Select Status</option>
+                                        <option value="OG">OG - OPERATION AND IN GOOD CONDITION</option>
+                                        <option value="OR">OR - OPERATION BUT NEED MINOR REPAIR</option>
+                                        <option value="NO">NO - NOT OPERATION</option>
+                                        <option value="FR">FR - FOR REPLACEMENT</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    <input type="text" name="remarks[]"  class="form-control" placeholder="Remarks" >
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row"></th>
+                                <td>ELECTRIC COMPONENTS WITHIN MCC PANEL</td>
+                                <td></td>
+                                <td>
+                                    <select name="status[]" class="form-select" id="">
+                                       <option value="">Select Status</option>
+                                        <option value="OG">OG - OPERATION AND IN GOOD CONDITION</option>
+                                        <option value="OR">OR - OPERATION BUT NEED MINOR REPAIR</option>
+                                        <option value="NO">NO - NOT OPERATION</option>
+                                        <option value="FR">FR - FOR REPLACEMENT</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    <input type="text" name="remarks[]"  class="form-control" placeholder="Remarks" >
+                                </td>
+                            </tr>
+                            {{-- CCT PUMP 4 --}}
+                            <tr>
+                                <th scope="row">15</th>
+                                <td><b>CCT PUMP 4</b></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <th scope="row"></th>
+                                <td>OPERATION OF VALVES AND PIPING CONNECTION</td>
+                                <td></td>
+                                <td>
+                                    <select name="status[]" class="form-select" id="">
+                                       <option value="">Select Status</option>
+                                        <option value="OG">OG - OPERATION AND IN GOOD CONDITION</option>
+                                        <option value="OR">OR - OPERATION BUT NEED MINOR REPAIR</option>
+                                        <option value="NO">NO - NOT OPERATION</option>
+                                        <option value="FR">FR - FOR REPLACEMENT</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    <input type="text" name="remarks[]"  class="form-control" placeholder="Remarks" >
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row"></th>
+                                <td>ELECTRIC COMPONENTS WITHIN MCC PANEL</td>
+                                <td></td>
+                                <td>
+                                    <select name="status[]" class="form-select" id="">
+                                       <option value="">Select Status</option>
+                                        <option value="OG">OG - OPERATION AND IN GOOD CONDITION</option>
+                                        <option value="OR">OR - OPERATION BUT NEED MINOR REPAIR</option>
+                                        <option value="NO">NO - NOT OPERATION</option>
+                                        <option value="FR">FR - FOR REPLACEMENT</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    <input type="text" name="remarks[]"  class="form-control" placeholder="Remarks" >
+                                </td>
+                            </tr>
+
+                            {{-- SBR 1 SLUDGE PUMP 1 --}}
+                            <tr>
+                                <th scope="row">16</th>
+                                <td><b>SBR 1 SLUDGE PUMP 1</b></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <th scope="row"></th>
+                                <td>OPERATION OF VALVES AND PIPING CONNECTION</td>
+                                <td></td>
+                                <td>
+                                    <select name="status[]" class="form-select" id="">
+                                       <option value="">Select Status</option>
+                                        <option value="OG">OG - OPERATION AND IN GOOD CONDITION</option>
+                                        <option value="OR">OR - OPERATION BUT NEED MINOR REPAIR</option>
+                                        <option value="NO">NO - NOT OPERATION</option>
+                                        <option value="FR">FR - FOR REPLACEMENT</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    <input type="text" name="remarks[]"  class="form-control" placeholder="Remarks" >
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row"></th>
+                                <td>ELECTRIC COMPONENTS WITHIN MCC PANEL</td>
+                                <td></td>
+                                <td>
+                                    <select name="status[]" class="form-select" id="">
+                                       <option value="">Select Status</option>
+                                        <option value="OG">OG - OPERATION AND IN GOOD CONDITION</option>
+                                        <option value="OR">OR - OPERATION BUT NEED MINOR REPAIR</option>
+                                        <option value="NO">NO - NOT OPERATION</option>
+                                        <option value="FR">FR - FOR REPLACEMENT</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    <input type="text" name="remarks[]"  class="form-control" placeholder="Remarks" >
+                                </td>
+                            </tr>
+
+                            {{-- SBR 1 SLUDGE PUMP 2 --}}
+                            <tr>
+                                <th scope="row">17</th>
+                                <td><b>SBR 1 SLUDGE PUMP 2</b></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <th scope="row"></th>
+                                <td>OPERATION OF VALVES AND PIPING CONNECTION</td>
+                                <td></td>
+                                <td>
+                                    <select name="status[]" class="form-select" id="">
+                                       <option value="">Select Status</option>
+                                        <option value="OG">OG - OPERATION AND IN GOOD CONDITION</option>
+                                        <option value="OR">OR - OPERATION BUT NEED MINOR REPAIR</option>
+                                        <option value="NO">NO - NOT OPERATION</option>
+                                        <option value="FR">FR - FOR REPLACEMENT</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    <input type="text" name="remarks[]"  class="form-control" placeholder="Remarks" >
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row"></th>
+                                <td>ELECTRIC COMPONENTS WITHIN MCC PANEL</td>
+                                <td></td>
+                                <td>
+                                    <select name="status[]" class="form-select" id="">
+                                       <option value="">Select Status</option>
+                                        <option value="OG">OG - OPERATION AND IN GOOD CONDITION</option>
+                                        <option value="OR">OR - OPERATION BUT NEED MINOR REPAIR</option>
+                                        <option value="NO">NO - NOT OPERATION</option>
+                                        <option value="FR">FR - FOR REPLACEMENT</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    <input type="text" name="remarks[]"  class="form-control" placeholder="Remarks" >
+                                </td>
+                            </tr>
+
+                            {{-- SBR 2 SLUDGE PUMP 3 --}}
+
+                            <tr>
+                                <th scope="row">18</th>
+                                <td><b>SBR 2 SLUDGE PUMP 3</b></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <th scope="row"></th>
+                                <td>OPERATION OF VALVES AND PIPING CONNECTION</td>
+                                <td></td>
+                                <td>
+                                    <select name="status[]" class="form-select" id="">
+                                       <option value="">Select Status</option>
+                                        <option value="OG">OG - OPERATION AND IN GOOD CONDITION</option>
+                                        <option value="OR">OR - OPERATION BUT NEED MINOR REPAIR</option>
+                                        <option value="NO">NO - NOT OPERATION</option>
+                                        <option value="FR">FR - FOR REPLACEMENT</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    <input type="text" name="remarks[]"  class="form-control" placeholder="Remarks" >
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row"></th>
+                                <td>ELECTRIC COMPONENTS WITHIN MCC PANEL</td>
+                                <td></td>
+                                <td>
+                                    <select name="status[]" class="form-select" id="">
+                                       <option value="">Select Status</option>
+                                        <option value="OG">OG - OPERATION AND IN GOOD CONDITION</option>
+                                        <option value="OR">OR - OPERATION BUT NEED MINOR REPAIR</option>
+                                        <option value="NO">NO - NOT OPERATION</option>
+                                        <option value="FR">FR - FOR REPLACEMENT</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    <input type="text" name="remarks[]"  class="form-control" placeholder="Remarks" >
+                                </td>
+                            </tr>
+
+
+                            {{-- SBR 2 SLUDGE PUMP 4 --}}
+                            <tr>
+                                <th scope="row">19</th>
+                                <td><b>SBR 2 SLUDGE PUMP 4</b></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <th scope="row"></th>
+                                <td>OPERATION OF VALVES AND PIPING CONNECTION</td>
+                                <td></td>
+                                <td>
+                                    <select name="status[]" class="form-select" id="">
+                                       <option value="">Select Status</option>
+                                        <option value="OG">OG - OPERATION AND IN GOOD CONDITION</option>
+                                        <option value="OR">OR - OPERATION BUT NEED MINOR REPAIR</option>
+                                        <option value="NO">NO - NOT OPERATION</option>
+                                        <option value="FR">FR - FOR REPLACEMENT</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    <input type="text" name="remarks[]"  class="form-control" placeholder="Remarks" >
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row"></th>
+                                <td>ELECTRIC COMPONENTS WITHIN MCC PANEL</td>
+                                <td></td>
+                                <td>
+                                    <select name="status[]" class="form-select" id="">
+                                       <option value="">Select Status</option>
+                                        <option value="OG">OG - OPERATION AND IN GOOD CONDITION</option>
+                                        <option value="OR">OR - OPERATION BUT NEED MINOR REPAIR</option>
+                                        <option value="NO">NO - NOT OPERATION</option>
+                                        <option value="FR">FR - FOR REPLACEMENT</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    <input type="text" name="remarks[]"  class="form-control" placeholder="Remarks" >
+                                </td>
+                            </tr>
+
+                             {{-- RASD PUMP 1 --}}
+                            <tr>
+                                <th scope="row">20</th>
+                                <td><b>RASD PUMP 1</b></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <th scope="row"></th>
+                                <td>OPERATION OF VALVES AND PIPING CONNECTION</td>
+                                <td></td>
+                                <td>
+                                    <select name="status[]" class="form-select" id="">
+                                       <option value="">Select Status</option>
+                                        <option value="OG">OG - OPERATION AND IN GOOD CONDITION</option>
+                                        <option value="OR">OR - OPERATION BUT NEED MINOR REPAIR</option>
+                                        <option value="NO">NO - NOT OPERATION</option>
+                                        <option value="FR">FR - FOR REPLACEMENT</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    <input type="text" name="remarks[]"  class="form-control" placeholder="Remarks" >
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row"></th>
+                                <td>ELECTRIC COMPONENTS WITHIN MCC PANEL</td>
+                                <td></td>
+                                <td>
+                                    <select name="status[]" class="form-select" id="">
+                                       <option value="">Select Status</option>
+                                        <option value="OG">OG - OPERATION AND IN GOOD CONDITION</option>
+                                        <option value="OR">OR - OPERATION BUT NEED MINOR REPAIR</option>
+                                        <option value="NO">NO - NOT OPERATION</option>
+                                        <option value="FR">FR - FOR REPLACEMENT</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    <input type="text" name="remarks[]"  class="form-control" placeholder="Remarks" >
+                                </td>
+                            </tr>
+
+                            {{-- RASD PUMP 2 --}}
+                            <tr>
+                                <th scope="row">21</th>
+                                <td><b>RASD PUMP 2</b></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <th scope="row"></th>
+                                <td>OPERATION OF VALVES AND PIPING CONNECTION</td>
+                                <td></td>
+                                <td>
+                                    <select name="status[]" class="form-select" id="">
+                                       <option value="">Select Status</option>
+                                        <option value="OG">OG - OPERATION AND IN GOOD CONDITION</option>
+                                        <option value="OR">OR - OPERATION BUT NEED MINOR REPAIR</option>
+                                        <option value="NO">NO - NOT OPERATION</option>
+                                        <option value="FR">FR - FOR REPLACEMENT</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    <input type="text" name="remarks[]"  class="form-control" placeholder="Remarks" >
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row"></th>
+                                <td>ELECTRIC COMPONENTS WITHIN MCC PANEL</td>
+                                <td></td>
+                                <td>
+                                    <select name="status[]" class="form-select" id="">
+                                       <option value="">Select Status</option>
+                                        <option value="OG">OG - OPERATION AND IN GOOD CONDITION</option>
+                                        <option value="OR">OR - OPERATION BUT NEED MINOR REPAIR</option>
+                                        <option value="NO">NO - NOT OPERATION</option>
+                                        <option value="FR">FR - FOR REPLACEMENT</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    <input type="text" name="remarks[]"  class="form-control" placeholder="Remarks" >
+                                </td>
+                            </tr>
+
+                            {{-- TRANSFER PUMP 1 --}}
+                            <tr>
+                                <th scope="row">22</th>
+                                <td><b>TRANSFER PUMP 1</b></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <th scope="row"></th>
+                                <td>OPERATION OF VALVES AND PIPING CONNECTION</td>
+                                <td></td>
+                                <td>
+                                    <select name="status[]" class="form-select" id="">
+                                       <option value="">Select Status</option>
+                                        <option value="OG">OG - OPERATION AND IN GOOD CONDITION</option>
+                                        <option value="OR">OR - OPERATION BUT NEED MINOR REPAIR</option>
+                                        <option value="NO">NO - NOT OPERATION</option>
+                                        <option value="FR">FR - FOR REPLACEMENT</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    <input type="text" name="remarks[]"  class="form-control" placeholder="Remarks" >
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row"></th>
+                                <td>ELECTRIC COMPONENTS WITHIN MCC PANEL</td>
+                                <td></td>
+                                <td>
+                                    <select name="status[]" class="form-select" id="">
+                                       <option value="">Select Status</option>
+                                        <option value="OG">OG - OPERATION AND IN GOOD CONDITION</option>
+                                        <option value="OR">OR - OPERATION BUT NEED MINOR REPAIR</option>
+                                        <option value="NO">NO - NOT OPERATION</option>
+                                        <option value="FR">FR - FOR REPLACEMENT</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    <input type="text" name="remarks[]"  class="form-control" placeholder="Remarks" >
+                                </td>
+                            </tr>
+                            
+                            {{-- TRANSFER PUMP 2 --}}
+                            <tr>
+                                <th scope="row">23</th>
+                                <td><b>TRANSFER PUMP 2</b></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <th scope="row"></th>
+                                <td>OPERATION OF VALVES AND PIPING CONNECTION</td>
+                                <td></td>
+                                <td>
+                                    <select name="status[]" class="form-select" id="">
+                                       <option value="">Select Status</option>
+                                        <option value="OG">OG - OPERATION AND IN GOOD CONDITION</option>
+                                        <option value="OR">OR - OPERATION BUT NEED MINOR REPAIR</option>
+                                        <option value="NO">NO - NOT OPERATION</option>
+                                        <option value="FR">FR - FOR REPLACEMENT</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    <input type="text" name="remarks[]"  class="form-control" placeholder="Remarks" >
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row"></th>
+                                <td>ELECTRIC COMPONENTS WITHIN MCC PANEL</td>
+                                <td></td>
+                                <td>
+                                    <select name="status[]" class="form-select" id="">
+                                       <option value="">Select Status</option>
+                                        <option value="OG">OG - OPERATION AND IN GOOD CONDITION</option>
+                                        <option value="OR">OR - OPERATION BUT NEED MINOR REPAIR</option>
+                                        <option value="NO">NO - NOT OPERATION</option>
+                                        <option value="FR">FR - FOR REPLACEMENT</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    <input type="text" name="remarks[]"  class="form-control" placeholder="Remarks" >
+                                </td>
+                            </tr>
+
+                            {{-- CENTRIFUGAL PUMP 1 --}}
+                            <tr>
+                                <th scope="row">24</th>
+                                <td><b>CENTRIFUGAL PUMP 1</b></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <th scope="row"></th>
+                                <td>OPERATION OF VALVES AND PIPING CONNECTION</td>
+                                <td></td>
+                                <td>
+                                    <select name="status[]" class="form-select" id="">
+                                       <option value="">Select Status</option>
+                                        <option value="OG">OG - OPERATION AND IN GOOD CONDITION</option>
+                                        <option value="OR">OR - OPERATION BUT NEED MINOR REPAIR</option>
+                                        <option value="NO">NO - NOT OPERATION</option>
+                                        <option value="FR">FR - FOR REPLACEMENT</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    <input type="text" name="remarks[]"  class="form-control" placeholder="Remarks" >
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row"></th>
+                                <td>ELECTRIC COMPONENTS WITHIN MCC PANEL</td>
+                                <td></td>
+                                <td>
+                                    <select name="status[]" class="form-select" id="">
+                                       <option value="">Select Status</option>
+                                        <option value="OG">OG - OPERATION AND IN GOOD CONDITION</option>
+                                        <option value="OR">OR - OPERATION BUT NEED MINOR REPAIR</option>
+                                        <option value="NO">NO - NOT OPERATION</option>
+                                        <option value="FR">FR - FOR REPLACEMENT</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    <input type="text" name="remarks[]"  class="form-control" placeholder="Remarks" >
+                                </td>
+                            </tr>
+
+                            {{-- CENTRIFUGAL PUMP 2 --}}
+                            <tr>
+                                <th scope="row">25</th>
+                                <td><b>CENTRIFUGAL PUMP 2</b></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <th scope="row"></th>
+                                <td>OPERATION OF VALVES AND PIPING CONNECTION</td>
+                                <td></td>
+                                <td>
+                                    <select name="status[]" class="form-select" id="">
+                                       <option value="">Select Status</option>
+                                        <option value="OG">OG - OPERATION AND IN GOOD CONDITION</option>
+                                        <option value="OR">OR - OPERATION BUT NEED MINOR REPAIR</option>
+                                        <option value="NO">NO - NOT OPERATION</option>
+                                        <option value="FR">FR - FOR REPLACEMENT</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    <input type="text" name="remarks[]"  class="form-control" placeholder="Remarks" >
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row"></th>
+                                <td>ELECTRIC COMPONENTS WITHIN MCC PANEL</td>
+                                <td></td>
+                                <td>
+                                    <select name="status[]" class="form-select" id="">
+                                       <option value="">Select Status</option>
+                                        <option value="OG">OG - OPERATION AND IN GOOD CONDITION</option>
+                                        <option value="OR">OR - OPERATION BUT NEED MINOR REPAIR</option>
+                                        <option value="NO">NO - NOT OPERATION</option>
+                                        <option value="FR">FR - FOR REPLACEMENT</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    <input type="text" name="remarks[]"  class="form-control" placeholder="Remarks" >
+                                </td>
+                            </tr>
+
+                            {{--CHLORINATOR --}}
+                            <tr>
+                                <th scope="row">26</th>
+                                <td><b>CHLORINATOR</b></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <th scope="row"></th>
+                                <td>PUMP OPERATION</td>
+                                <td></td>
+                                <td>
+                                    <select name="status[]" class="form-select" id="">
+                                       <option value="">Select Status</option>
+                                        <option value="OG">OG - OPERATION AND IN GOOD CONDITION</option>
+                                        <option value="OR">OR - OPERATION BUT NEED MINOR REPAIR</option>
+                                        <option value="NO">NO - NOT OPERATION</option>
+                                        <option value="FR">FR - FOR REPLACEMENT</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    <input type="text" name="remarks[]"  class="form-control" placeholder="Remarks" >
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row"></th>
+                                <td>VOLUME OF CHLORINE SOLUTION TANK</td>
+                                <td></td>
+                                <td>
+                                    <select name="status[]" class="form-select" id="">
+                                        <option value="">Select Status</option>
+                                        <option value="HL">HL - HIGH LEVEL</option>
+                                        <option value="ML">ML - MID LEVEL</option>
+                                        <option value="LL">LL - LOW LEVEL</option>
+                                        <option value="R">R - REFILL SOLUTION</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    <input type="text" name="remarks[]"  class="form-control" placeholder="Remarks" >
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row"></th>
+                                <td>ELECTRIC COMPONENTS WITHIN MCC PANEL</td>
+                                <td></td>
+                                <td>
+                                    <select name="status[]" class="form-select" id="">
+                                       <option value="">Select Status</option>
+                                        <option value="OG">OG - OPERATION AND IN GOOD CONDITION</option>
+                                        <option value="OR">OR - OPERATION BUT NEED MINOR REPAIR</option>
+                                        <option value="NO">NO - NOT OPERATION</option>
+                                        <option value="FR">FR - FOR REPLACEMENT</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    <input type="text" name="remarks[]"  class="form-control" placeholder="Remarks" >
+                                </td>
+                            </tr>
+
+                            {{--CHLORINATOR --}}
+                            <tr>
+                                <th scope="row">27</th>
+                                <td><b>CHEMICAL FEED PUMPS </b></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <th scope="row"></th>
+                                <td>PUMP OPERATION</td>
+                                <td></td>
+                                <td>
+                                    <select name="status[]" class="form-select" id="">
+                                       <option value="">Select Status</option>
+                                        <option value="OG">OG - OPERATION AND IN GOOD CONDITION</option>
+                                        <option value="OR">OR - OPERATION BUT NEED MINOR REPAIR</option>
+                                        <option value="NO">NO - NOT OPERATION</option>
+                                        <option value="FR">FR - FOR REPLACEMENT</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    <input type="text" name="remarks[]"  class="form-control" placeholder="Remarks" >
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row"></th>
+                                <td>VOLUME OF CHLORINE SOLUTION TANK</td>
+                                <td></td>
+                                <td>
+                                    <select name="status[]" class="form-select" id="">
+                                        <option value="">Select Status</option>
+                                        <option value="HL">HL - HIGH LEVEL</option>
+                                        <option value="ML">ML - MID LEVEL</option>
+                                        <option value="LL">LL - LOW LEVEL</option>
+                                        <option value="R">R - REFILL SOLUTION</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    <input type="text" name="remarks[]"  class="form-control" placeholder="Remarks" >
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row"></th>
+                                <td>ELECTRIC COMPONENTS WITHIN MCC PANEL</td>
+                                <td></td>
+                                <td>
+                                    <select name="status[]" class="form-select" id="">
+                                       <option value="">Select Status</option>
+                                        <option value="OG">OG - OPERATION AND IN GOOD CONDITION</option>
+                                        <option value="OR">OR - OPERATION BUT NEED MINOR REPAIR</option>
+                                        <option value="NO">NO - NOT OPERATION</option>
+                                        <option value="FR">FR - FOR REPLACEMENT</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    <input type="text" name="remarks[]"  class="form-control" placeholder="Remarks" >
+                                </td>
+                            </tr>
+
+
+
+
+
+
+
 
                         </tbody>
                     </table>
@@ -1274,7 +2264,7 @@
 
                                 {{-- #5 --}}
 
-                                 <tr>
+                                <tr>
                                   <th scope="row">5</th>
                                   <td><b>AERATION BLOWER 5</b></td>
                                   <td></td>
@@ -1350,6 +2340,511 @@
                                     <td><span  id="status_45"></span></td>
                                     <td><span  id="remarks_45"></span></td>
                                 </tr>
+
+                                {{-- PUMP 1 --}}
+                                <tr>
+                                  <th scope="row">6</th>
+                                  <td><b>SBR 1 EQUALIZATION PUMP 1</b></td>
+                                  <td></td>
+                                  <td></td>
+                                  <td></td>
+                                <tr>
+                                    <th scope="row"></th>
+                                    <td>OPERATION OF VALVES AND PIPING CONNECTION</td>
+                                    <td><span id="code_46"></span></td>
+                                    <td><span id="status_46"></span></td>
+                                    <td><span id="remarks_46"></span></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row"></th>
+                                    <td>ELECTRIC COMPONENTS WITHIN MCC PANEL</td>
+                                    <td><span id="code_47"></span></td>
+                                    <td><span id="status_47"></span></td>
+                                    <td><span id="remarks_47"></span></td>
+                                </tr>
+
+                                {{-- Pump 2 --}}
+                                <tr>
+                                  <th scope="row">7</th>
+                                  <td><b>SBR 1 EQUALIZATION PUMP 2</b></td>
+                                  <td></td>
+                                  <td></td>
+                                  <td></td>
+                                <tr>
+                                    <th scope="row"></th>
+                                    <td>OPERATION OF VALVES AND PIPING CONNECTION</td>
+                                    <td><span id="code_48"></span></td>
+                                    <td><span id="status_48"></span></td>
+                                    <td><span id="remarks_48"></span></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row"></th>
+                                    <td>ELECTRIC COMPONENTS WITHIN MCC PANEL</td>
+                                    <td><span id="code_49"></span></td>
+                                    <td><span id="status_49"></span></td>
+                                    <td><span id="remarks_49"></span></td>
+                                </tr>
+                                {{-- Pump  3 --}}
+
+                                <tr>
+                                  <th scope="row">8</th>
+                                  <td><b>SBR 2 EQUALIZATION PUMP 3</b></td>
+                                  <td></td>
+                                  <td></td>
+                                  <td></td>
+                                <tr>
+                                    <th scope="row"></th>
+                                    <td>OPERATION OF VALVES AND PIPING CONNECTION</td>
+                                    <td><span id="code_50"></span></td>
+                                    <td><span id="status_50"></span></td>
+                                    <td><span id="remarks_50"></span></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row"></th>
+                                    <td>ELECTRIC COMPONENTS WITHIN MCC PANEL</td>
+                                    <td><span id="code_51"></span></td>
+                                    <td><span id="status_51"></span></td>
+                                    <td><span id="remarks_51"></span></td>
+                                </tr>
+
+                                {{-- PUMP 4 --}}
+                                <tr>
+                                  <th scope="row">9</th>
+                                  <td><b>SBR 2 EQUALIZATION PUMP 4</b></td>
+                                  <td></td>
+                                  <td></td>
+                                  <td></td>
+                                <tr>
+                                    <th scope="row"></th>
+                                    <td>OPERATION OF VALVES AND PIPING CONNECTION</td>
+                                    <td><span id="code_52"></span></td>
+                                    <td><span id="status_52"></span></td>
+                                    <td><span id="remarks_52"></span></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row"></th>
+                                    <td>ELECTRIC COMPONENTS WITHIN MCC PANEL</td>
+                                    <td><span id="code_53"></span></td>
+                                    <td><span id="status_53"></span></td>
+                                    <td><span id="remarks_53"></span></td>
+                                </tr>
+
+                                {{-- DECANTER PUMP 1 --}}
+                                 <tr>
+                                  <th scope="row">10</th>
+                                  <td><b>SBR 1 - DECANTER PUMP 1</b></td>
+                                  <td></td>
+                                  <td></td>
+                                  <td></td>
+                                <tr>
+                                    <th scope="row"></th>
+                                    <td>OPERATION OF VALVES AND PIPING CONNECTION</td>
+                                    <td><span id="code_54"></span></td>
+                                    <td><span id="status_54"></span></td>
+                                    <td><span id="remarks_54"></span></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row"></th>
+                                    <td>ELECTRIC COMPONENTS WITHIN MCC PANEL</td>
+                                    <td><span id="code_55"></span></td>
+                                    <td><span id="status_55"></span></td>
+                                    <td><span id="remarks_55"></span></td>
+                                </tr>
+
+                                {{-- DECANTER PUMP 2 --}}
+                                 <tr>
+                                  <th scope="row">11</th>
+                                  <td><b>SBR 2 - DECANTER PUMP 2</b></td>
+                                  <td></td>
+                                  <td></td>
+                                  <td></td>
+                                <tr>
+                                    <th scope="row"></th>
+                                    <td>OPERATION OF VALVES AND PIPING CONNECTION</td>
+                                    <td><span id="code_56"></span></td>
+                                    <td><span id="status_56"></span></td>
+                                    <td><span id="remarks_56"></span></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row"></th>
+                                    <td>ELECTRIC COMPONENTS WITHIN MCC PANEL</td>
+                                    <td><span id="code_57"></span></td>
+                                    <td><span id="status_57"></span></td>
+                                    <td><span id="remarks_57"></span></td>
+                                </tr>
+
+                                {{-- CCT PUMP 1 --}}
+                                <tr>
+                                  <th scope="row">12</th>
+                                  <td><b>CCT PUMP 1</b></td>
+                                  <td></td>
+                                  <td></td>
+                                  <td></td>
+                                <tr>
+                                    <th scope="row"></th>
+                                    <td>OPERATION OF VALVES AND PIPING CONNECTION</td>
+                                    <td><span id="code_58"></span></td>
+                                    <td><span id="status_58"></span></td>
+                                    <td><span id="remarks_58"></span></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row"></th>
+                                    <td>ELECTRIC COMPONENTS WITHIN MCC PANEL</td>
+                                    <td><span id="code_59"></span></td>
+                                    <td><span id="status_59"></span></td>
+                                    <td><span id="remarks_59"></span></td>
+                                </tr>
+
+                                {{-- CCT PUMP 2 --}}
+
+                                <tr>
+                                  <th scope="row">13</th>
+                                  <td><b>CCT PUMP 2</b></td>
+                                  <td></td>
+                                  <td></td>
+                                  <td></td>
+                                <tr>
+                                    <th scope="row"></th>
+                                    <td>OPERATION OF VALVES AND PIPING CONNECTION</td>
+                                    <td><span id="code_60"></span></td>
+                                    <td><span id="status_60"></span></td>
+                                    <td><span id="remarks_60"></span></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row"></th>
+                                    <td>ELECTRIC COMPONENTS WITHIN MCC PANEL</td>
+                                    <td><span id="code_61"></span></td>
+                                    <td><span id="status_61"></span></td>
+                                    <td><span id="remarks_61"></span></td>
+                                </tr>
+
+                                {{-- CCT PUMP 3 --}}
+                                <tr>
+                                  <th scope="row">14</th>
+                                  <td><b>CCT PUMP 3</b></td>
+                                  <td></td>
+                                  <td></td>
+                                  <td></td>
+                                <tr>
+                                    <th scope="row"></th>
+                                    <td>OPERATION OF VALVES AND PIPING CONNECTION</td>
+                                    <td><span id="code_62"></span></td>
+                                    <td><span id="status_62"></span></td>
+                                    <td><span id="remarks_62"></span></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row"></th>
+                                    <td>ELECTRIC COMPONENTS WITHIN MCC PANEL</td>
+                                    <td><span id="code_63"></span></td>
+                                    <td><span id="status_63"></span></td>
+                                    <td><span id="remarks_63"></span></td>
+                                </tr>
+
+                                {{-- CCT PUMP 4 --}}
+                                <tr>
+                                  <th scope="row">15</th>
+                                  <td><b>CCT PUMP 4</b></td>
+                                  <td></td>
+                                  <td></td>
+                                  <td></td>
+                                <tr>
+                                    <th scope="row"></th>
+                                    <td>OPERATION OF VALVES AND PIPING CONNECTION</td>
+                                    <td><span id="code_64"></span></td>
+                                    <td><span id="status_64"></span></td>
+                                    <td><span id="remarks_64"></span></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row"></th>
+                                    <td>ELECTRIC COMPONENTS WITHIN MCC PANEL</td>
+                                    <td><span id="code_65"></span></td>
+                                    <td><span id="status_65"></span></td>
+                                    <td><span id="remarks_65"></span></td>
+                                </tr>
+
+                                {{--  SBR 1 SLUDGE PUMP 1 --}}
+                                <tr>
+                                  <th scope="row">16</th>
+                                  <td><b>SBR 1 SLUDGE PUMP 1</b></td>
+                                  <td></td>
+                                  <td></td>
+                                  <td></td>
+                                <tr>
+                                    <th scope="row"></th>
+                                    <td>OPERATION OF VALVES AND PIPING CONNECTION</td>
+                                    <td><span id="code_66"></span></td>
+                                    <td><span id="status_66"></span></td>
+                                    <td><span id="remarks_66"></span></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row"></th>
+                                    <td>ELECTRIC COMPONENTS WITHIN MCC PANEL</td>
+                                    <td><span id="code_67"></span></td>
+                                    <td><span id="status_67"></span></td>
+                                    <td><span id="remarks_67"></span></td>
+                                </tr>
+
+                                {{-- SBR 1 SLUDGE PUMP 2 --}}
+                                <tr>
+                                  <th scope="row">17</th>
+                                  <td><b>SBR 1 SLUDGE PUMP 2</b></td>
+                                  <td></td>
+                                  <td></td>
+                                  <td></td>
+                                <tr>
+                                    <th scope="row"></th>
+                                    <td>OPERATION OF VALVES AND PIPING CONNECTION</td>
+                                    <td><span id="code_68"></span></td>
+                                    <td><span id="status_68"></span></td>
+                                    <td><span id="remarks_68"></span></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row"></th>
+                                    <td>ELECTRIC COMPONENTS WITHIN MCC PANEL</td>
+                                    <td><span id="code_69"></span></td>
+                                    <td><span id="status_69"></span></td>
+                                    <td><span id="remarks_69"></span></td>
+                                </tr>
+
+                                {{-- SBR 2 SLUDGE PUMP 3 --}}
+                                <tr>
+                                  <th scope="row">18</th>
+                                  <td><b>SBR 2 SLUDGE PUMP 2</b></td>
+                                  <td></td>
+                                  <td></td>
+                                  <td></td>
+                                <tr>
+                                    <th scope="row"></th>
+                                    <td>OPERATION OF VALVES AND PIPING CONNECTION</td>
+                                    <td><span id="code_70"></span></td>
+                                    <td><span id="status_70"></span></td>
+                                    <td><span id="remarks_70"></span></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row"></th>
+                                    <td>ELECTRIC COMPONENTS WITHIN MCC PANEL</td>
+                                    <td><span id="code_71"></span></td>
+                                    <td><span id="status_71"></span></td>
+                                    <td><span id="remarks_71"></span></td>
+                                </tr>
+
+                                {{-- SBR 2 SLUDGE PUMP 4 --}}
+                                <tr>
+                                  <th scope="row">19</th>
+                                  <td><b>SBR 2 SLUDGE PUMP 4</b></td>
+                                  <td></td>
+                                  <td></td>
+                                  <td></td>
+                                <tr>
+                                    <th scope="row"></th>
+                                    <td>OPERATION OF VALVES AND PIPING CONNECTION</td>
+                                    <td><span id="code_72"></span></td>
+                                    <td><span id="status_72"></span></td>
+                                    <td><span id="remarks_72"></span></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row"></th>
+                                    <td>ELECTRIC COMPONENTS WITHIN MCC PANEL</td>
+                                    <td><span id="code_73"></span></td>
+                                    <td><span id="status_73"></span></td>
+                                    <td><span id="remarks_73"></span></td>
+                                </tr>
+
+                                {{-- RASD PUMP 1 --}}
+                                <tr>
+                                  <th scope="row">20</th>
+                                  <td><b>RASD PUMP 1</b></td>
+                                  <td></td>
+                                  <td></td>
+                                  <td></td>
+                                <tr>
+                                    <th scope="row"></th>
+                                    <td>OPERATION OF VALVES AND PIPING CONNECTION</td>
+                                    <td><span id="code_74"></span></td>
+                                    <td><span id="status_74"></span></td>
+                                    <td><span id="remarks_74"></span></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row"></th>
+                                    <td>ELECTRIC COMPONENTS WITHIN MCC PANEL</td>
+                                    <td><span id="code_75"></span></td>
+                                    <td><span id="status_75"></span></td>
+                                    <td><span id="remarks_75"></span></td>
+                                </tr>
+
+                                 {{-- RASD PUMP 1 --}}
+                                <tr>
+                                  <th scope="row">21</th>
+                                  <td><b>RASD PUMP 2</b></td>
+                                  <td></td>
+                                  <td></td>
+                                  <td></td>
+                                <tr>
+                                    <th scope="row"></th>
+                                    <td>OPERATION OF VALVES AND PIPING CONNECTION</td>
+                                    <td><span id="code_76"></span></td>
+                                    <td><span id="status_76"></span></td>
+                                    <td><span id="remarks_76"></span></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row"></th>
+                                    <td>ELECTRIC COMPONENTS WITHIN MCC PANEL</td>
+                                    <td><span id="code_77"></span></td>
+                                    <td><span id="status_77"></span></td>
+                                    <td><span id="remarks_77"></span></td>
+                                </tr>
+
+                                {{-- TRANSFER PUMP 1 --}}
+                                <tr>
+                                  <th scope="row">22</th>
+                                  <td><b>TRANSFER PUMP 1</b></td>
+                                  <td></td>
+                                  <td></td>
+                                  <td></td>
+                                <tr>
+                                    <th scope="row"></th>
+                                    <td>OPERATION OF VALVES AND PIPING CONNECTION</td>
+                                    <td><span id="code_78"></span></td>
+                                    <td><span id="status_78"></span></td>
+                                    <td><span id="remarks_78"></span></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row"></th>
+                                    <td>ELECTRIC COMPONENTS WITHIN MCC PANEL</td>
+                                    <td><span id="code_79"></span></td>
+                                    <td><span id="status_79"></span></td>
+                                    <td><span id="remarks_79"></span></td>
+                                </tr>
+
+                                {{-- TRANSFER PUMP 2 --}}
+                                <tr>
+                                  <th scope="row">23</th>
+                                  <td><b>TRANSFER PUMP 2</b></td>
+                                  <td></td>
+                                  <td></td>
+                                  <td></td>
+                                <tr>
+                                    <th scope="row"></th>
+                                    <td>OPERATION OF VALVES AND PIPING CONNECTION</td>
+                                    <td><span id="code_80"></span></td>
+                                    <td><span id="status_80"></span></td>
+                                    <td><span id="remarks_80"></span></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row"></th>
+                                    <td>ELECTRIC COMPONENTS WITHIN MCC PANEL</td>
+                                    <td><span id="code_81"></span></td>
+                                    <td><span id="status_81"></span></td>
+                                    <td><span id="remarks_81"></span></td>
+                                </tr>
+
+                                {{-- CENTRIFUGAL PUMP 1 --}}
+                                <tr>
+                                  <th scope="row">24</th>
+                                  <td><b>CENTRIFUGAL PUMP 1</b></td>
+                                  <td></td>
+                                  <td></td>
+                                  <td></td>
+                                <tr>
+                                    <th scope="row"></th>
+                                    <td>OPERATION OF VALVES AND PIPING CONNECTION</td>
+                                    <td><span id="code_82"></span></td>
+                                    <td><span id="status_82"></span></td>
+                                    <td><span id="remarks_82"></span></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row"></th>
+                                    <td>ELECTRIC COMPONENTS WITHIN MCC PANEL</td>
+                                    <td><span id="code_83"></span></td>
+                                    <td><span id="status_83"></span></td>
+                                    <td><span id="remarks_83"></span></td>
+                                </tr>
+
+                                {{-- CENTRIFUGAL PUMP 2 --}}
+                                <tr>
+                                  <th scope="row">25</th>
+                                  <td><b>CENTRIFUGAL PUMP 2</b></td>
+                                  <td></td>
+                                  <td></td>
+                                  <td></td>
+                                <tr>
+                                    <th scope="row"></th>
+                                    <td>OPERATION OF VALVES AND PIPING CONNECTION</td>
+                                    <td><span id="code_84"></span></td>
+                                    <td><span id="status_84"></span></td>
+                                    <td><span id="remarks_84"></span></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row"></th>
+                                    <td>ELECTRIC COMPONENTS WITHIN MCC PANEL</td>
+                                    <td><span id="code_85"></span></td>
+                                    <td><span id="status_85"></span></td>
+                                    <td><span id="remarks_85"></span></td>
+                                </tr>
+
+                                {{-- CENTRIFUGAL PUMP 2 --}}
+                                <tr>
+                                  <th scope="row">26</th>
+                                  <td><b>CHLORINATOR</b></td>
+                                  <td></td>
+                                  <td></td>
+                                  <td></td>
+                                <tr>
+                                    <th scope="row"></th>
+                                    <td>PUMP OPERATION</td>
+                                    <td><span id="code_86"></span></td>
+                                    <td><span id="status_86"></span></td>
+                                    <td><span id="remarks_86"></span></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row"></th>
+                                    <td>VOLUME OF CHLORINE SOLUTION TANK</td>
+                                    <td><span id="code_87"></span></td>
+                                    <td><span id="status_87"></span></td>
+                                    <td><span id="remarks_87"></span></td>
+                                </tr>   
+                                <tr>
+                                    <th scope="row"></th>
+                                    <td>ELECTRIC COMPONENTS WITHIN MCC PANEL</td>
+                                    <td><span id="code_88"></span></td>
+                                    <td><span id="status_88"></span></td>
+                                    <td><span id="remarks_88"></span></td>
+                                </tr>
+
+                                {{-- CHEMICAL FEED PUMPS --}}
+                                <tr>
+                                  <th scope="row">27</th>
+                                  <td><b>CHEMICAL FEED PUMPS </b></td>
+                                  <td></td>
+                                  <td></td>
+                                  <td></td>
+                                <tr>
+                                    <th scope="row"></th>
+                                    <td>PUMP OPERATION</td>
+                                    <td><span id="code_89"></span></td>
+                                    <td><span id="status_89"></span></td>
+                                    <td><span id="remarks_89"></span></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row"></th>
+                                    <td>VOLUME OF CHLORINE SOLUTION TANK</td>
+                                    <td><span id="code_90"></span></td>
+                                    <td><span id="status_90"></span></td>
+                                    <td><span id="remarks_90"></span></td>
+                                </tr>   
+                                <tr>
+                                    <th scope="row"></th>
+                                    <td>ELECTRIC COMPONENTS WITHIN MCC PANEL</td>
+                                    <td><span id="code_91"></span></td>
+                                    <td><span id="status_91"></span></td>
+                                    <td><span id="remarks_91"></span></td>
+                                </tr>
+
+
+
+
+
+
                           </tbody>
                       </table>
                  </div>
@@ -1365,8 +2860,10 @@
 </div>
 
 
-<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js'></script>
+
 <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.17.0/xlsx.full.min.js"></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js'></script>
+
 
 <script>
     document.getElementById("btnPrint").onclick = function () {
@@ -1442,51 +2939,7 @@
 
 </script>
 
-{{-- <script>
-    document.getElementById("btnPrint").onclick = function () {
-        // Hide content outside the modal
-        var outsideContent = document.querySelector('.content');
-        outsideContent.style.display = 'none';
 
-        // Hide other modals
-        var otherModals = document.querySelectorAll('.modal');
-        otherModals.forEach(function(modal) {
-            if (modal.id !== 'edit') {
-                modal.style.display = 'none';
-            }
-        });
-
-        // Hide AdminLTE footer before printing
-        var adminLTEFooter = document.querySelector('.main-footer');
-        adminLTEFooter.style.display = 'none';
-
-        // Print the table
-        printElement(document.getElementById("printThis"));
-
-        // Show content outside the modal
-        outsideContent.style.display = 'block';
-
-        // Show other modals again after printing
-        otherModals.forEach(function(modal) {
-            modal.style.display = 'block';
-        });
-
-        // Restore AdminLTE footer after printing
-        adminLTEFooter.style.display = 'block';
-    }
-
-    function printElement(elem) {
-        var domClone = elem.cloneNode(true);
-        var $printSection = document.createElement("div");
-        $printSection.id = "printSection";
-        document.body.appendChild($printSection);
-        $printSection.innerHTML = "";
-        $printSection.appendChild(domClone);
-        window.print();
-    }
-
-
-</script> --}}
 <script>
     $(document).ready(function () {
 
@@ -1593,7 +3046,10 @@
                         let ML = "ML - MID LEVEL";
                         let LL = "LL - LOW LEVEL";
                         let FC = "FC - FOR CHANGE OIL";
-
+                        let R = "R - REFILL SOLUTION";
+                        let C = "C - CHECKED";
+                        let D = "D - DONE";
+ 
                         let statusValue = item.status;
 
                         // Check if the status value matches any predefined value
@@ -1621,6 +3077,14 @@
                                 break;
                             case "FC":
                                 statusValue = FC;
+                                break;
+                            case "R":
+                                statusValue = R;
+                                break;
+                            case "C":
+                                statusValue = C;
+                            case "D":
+                                statusValue = D;
                                 break;
                             default:
                                 break;

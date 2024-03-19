@@ -12,6 +12,7 @@ class MonitoringReportController extends Controller
     public function index(){
 
         return view('MonitoringReport.index');
+       
     }
     public function store(Request $request){
 
@@ -62,11 +63,13 @@ class MonitoringReportController extends Controller
                     </thead>
                     <tbody>';
             foreach ($datas as $data) {
+
                 $output .= '<tr>
                         <td>' . $data->id. '</td>
                         <td>'.Carbon::parse($data->date)->format('M d Y').'</td>
                         <td>
                             <a href="#" id="' . $data->id . '" class="text-default  btn btn-success btn-sm mx-1 edit" data-bs-toggle="modal" data-bs-target="#edit">Edit</a>
+                            
                          </td>
                     </tr>';
             }
