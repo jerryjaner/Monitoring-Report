@@ -10,7 +10,7 @@ $route = Route::current()->getName();
     <!-- Sidebar user panel (optional) -->
     <div class="user-panel mt-3 pb-3 mb-3 d-flex">
         <div class="info">
-            <a href="{{ route('profile.show') }}" class="d-block">{{ Auth::user()->name }}</a>
+            {{-- <a href="{{ route('profile.show') }}" class="d-block">{{ Auth::user()->name }}</a> --}}
         </div>
     </div>
 
@@ -27,42 +27,7 @@ $route = Route::current()->getName();
                 </a>
             </li>
 
-            {{-- <li class="nav-item">
-                <a href="{{ route('familyprofile.index') }}"  class="nav-link {{($route == 'familyprofile.index')?'active':''}}">
-                    <i class="nav-icon far fa-address-card"></i>
-                    <p>
-                        Family Profile
-                    </p>
-                </a>
-            </li> --}}
-
-            <li class="nav-item">
-                <a href="{{ route('room.index') }}"  class="nav-link {{($route == 'room.index')?'active':''}}">
-                    <i class="nav-icon fas fa-door-open"></i>
-                    <p>
-                        Apartment Room
-                    </p>
-                </a>
-            </li>
-
-
-            <li class="nav-item">
-                <a href="{{ route('apartment.index') }}"  class="nav-link {{($route == 'apartment.index')?'active':''}}">
-                    <i class="nav-icon far fa-address-card"></i>
-                    <p>
-                       Apartment Rent
-                    </p>
-                </a>
-            </li>
-            <li class="nav-item">
-                <a href="{{ route('archive.index') }}"  class="nav-link {{($route == 'archive.index')?'active':''}}">
-                    <i class="nav-icon fas fa-window-restore"></i>
-                    <p>
-                       Archive
-                    </p>
-                </a>
-            </li>
-
+            
             <li class="nav-item">
                 <a href="{{ route('voltage_ampere.index') }}"  class="nav-link {{($route == 'voltage_ampere.index')?'active':''}}">
                     <i class="nav-icon fas fa-window-restore"></i>
@@ -78,28 +43,6 @@ $route = Route::current()->getName();
                        Monitoring Report
                     </p>
                 </a>
-            </li>
-
-            <li class="nav-item">
-                <a href="{{ route('users.index') }}" class="nav-link {{($route == 'users.index')?'active':''}}">
-                    <i class="nav-icon fas fa-users"></i>
-                    <p>
-                        {{ __('Users') }}
-                    </p>
-                </a>
-            </li>
-
-           
-            <li class="nav-item">
-                <form method="POST" action="{{ route('logout') }}">
-                    @csrf
-                    <a href="{{ route('logout') }}" class="nav-link"
-                       onclick="event.preventDefault(); this.closest('form').submit();">
-                        <i class="mr-2 fas fa-sign-out-alt"></i>
-                        {{ __('Log Out') }}
-                    </a>
-                </form>
-
             </li>
         </ul>
     </nav>
