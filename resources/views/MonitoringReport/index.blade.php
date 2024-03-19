@@ -1890,6 +1890,293 @@
                                 </td>
                             </tr>
 
+                            {{-- CCT ULTRASONIC FLOWMETER (EFFLUENT) --}}
+                            <tr>
+                                <th scope="row">28</th>
+                                <td><b>CCT ULTRASONIC FLOWMETER (EFFLUENT)</b></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <th scope="row"></th>
+                                <td>ULTRASONIC OPERATION</td>
+                                <td></td>
+                                <td>
+                                    <select name="status[]" class="form-select" id="">
+                                       <option value="">Select Status</option>
+                                        <option value="OG">OG - OPERATION AND IN GOOD CONDITION</option>
+                                        <option value="OR">OR - OPERATION BUT NEED MINOR REPAIR</option>
+                                        <option value="NO">NO - NOT OPERATION</option>
+                                        <option value="FR">FR - FOR REPLACEMENT</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    <input type="text" name="remarks[]"  class="form-control" placeholder="Remarks" >
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row"></th>
+                                <td>ELECTRIC COMPONENTS WITHIN MCC PANEL</td>
+                                <td></td>
+                                <td>
+                                    <select name="status[]" class="form-select" id="">
+                                       <option value="">Select Status</option>
+                                        <option value="OG">OG - OPERATION AND IN GOOD CONDITION</option>
+                                        <option value="OR">OR - OPERATION BUT NEED MINOR REPAIR</option>
+                                        <option value="NO">NO - NOT OPERATION</option>
+                                        <option value="FR">FR - FOR REPLACEMENT</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    <input type="text" name="remarks[]"  class="form-control" placeholder="Remarks" >
+                                </td>
+                            </tr>
+
+                             {{-- SBR 1 ULTRASONIC FLOWMETER (INFLUENT) --}}
+                            <tr>
+                                <th scope="row">29</th>
+                                <td><b>SBR 1 ULTRASONIC FLOWMETER (INFLUENT)</b></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <th scope="row"></th>
+                                <td>ULTRASONIC OPERATION</td>
+                                <td></td>
+                                <td>
+                                    <select name="status[]" class="form-select" id="">
+                                       <option value="">Select Status</option>
+                                        <option value="OG">OG - OPERATION AND IN GOOD CONDITION</option>
+                                        <option value="OR">OR - OPERATION BUT NEED MINOR REPAIR</option>
+                                        <option value="NO">NO - NOT OPERATION</option>
+                                        <option value="FR">FR - FOR REPLACEMENT</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    <input type="text" name="remarks[]"  class="form-control" placeholder="Remarks" >
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row"></th>
+                                <td>ELECTRIC COMPONENTS WITHIN MCC PANEL</td>
+                                <td></td>
+                                <td>
+                                    <select name="status[]" class="form-select" id="">
+                                       <option value="">Select Status</option>
+                                        <option value="OG">OG - OPERATION AND IN GOOD CONDITION</option>
+                                        <option value="OR">OR - OPERATION BUT NEED MINOR REPAIR</option>
+                                        <option value="NO">NO - NOT OPERATION</option>
+                                        <option value="FR">FR - FOR REPLACEMENT</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    <input type="text" name="remarks[]"  class="form-control" placeholder="Remarks" >
+                                </td>
+                            </tr>
+
+                            {{-- SBR 2 ULTRASONIC FLOWMETER (INFLUENT) --}}
+                            <tr>
+                                <th scope="row">30 </th>
+                                <td><b>SBR 2 ULTRASONIC FLOWMETER (INFLUENT)</b></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <th scope="row"></th>
+                                <td>ULTRASONIC OPERATION</td>
+                                <td></td>
+                                <td>
+                                    <select name="status[]" class="form-select" id="">
+                                       <option value="">Select Status</option>
+                                        <option value="OG">OG - OPERATION AND IN GOOD CONDITION</option>
+                                        <option value="OR">OR - OPERATION BUT NEED MINOR REPAIR</option>
+                                        <option value="NO">NO - NOT OPERATION</option>
+                                        <option value="FR">FR - FOR REPLACEMENT</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    <input type="text" name="remarks[]"  class="form-control" placeholder="Remarks" >
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row"></th>
+                                <td>ELECTRIC COMPONENTS WITHIN MCC PANEL</td>
+                                <td></td>
+                                <td>
+                                    <select name="status[]" class="form-select" id="">
+                                       <option value="">Select Status</option>
+                                        <option value="OG">OG - OPERATION AND IN GOOD CONDITION</option>
+                                        <option value="OR">OR - OPERATION BUT NEED MINOR REPAIR</option>
+                                        <option value="NO">NO - NOT OPERATION</option>
+                                        <option value="FR">FR - FOR REPLACEMENT</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    <input type="text" name="remarks[]"  class="form-control" placeholder="Remarks" >
+                                </td>
+                            </tr>
+
+                             {{--MCC PANEL --}}
+                            <tr>
+                                <th scope="row">31 </th>
+                                <td><b>MCC PANEL</b></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <th scope="row"></th>
+                                <td>INSPECT & CHECK ELECTRICAL CONTROLS, COMPONENTS</td>
+                                <td></td>
+                                <td>
+                                    <select name="status[]" class="form-select" id="">
+                                       <option value="">Select Status</option>
+                                        <option value="OG">OG - OPERATION AND IN GOOD CONDITION</option>
+                                        <option value="OR">OR - OPERATION BUT NEED MINOR REPAIR</option>
+                                        <option value="NO">NO - NOT OPERATION</option>
+                                        <option value="FR">FR - FOR REPLACEMENT</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    <input type="text" name="remarks[]"  class="form-control" placeholder="Remarks" >
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row"></th>
+                                <td>RE-TIGHTENED SCREW, BOLTS, MOUNTING CONNECTION</td>
+                                <td></td>
+                                <td>
+                                    <select name="status[]" class="form-select" id="">
+                                       <option value="">Select Status</option>
+                                        <option value="OG">OG - OPERATION AND IN GOOD CONDITION</option>
+                                        <option value="OR">OR - OPERATION BUT NEED MINOR REPAIR</option>
+                                        <option value="NO">NO - NOT OPERATION</option>
+                                        <option value="FR">FR - FOR REPLACEMENT</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    <input type="text" name="remarks[]"  class="form-control" placeholder="Remarks" >
+                                </td>
+                            </tr>
+                             <tr>
+                                <th scope="row"></th>
+                                <td>CLEAN</td>
+                                <td></td>
+                                <td>
+                                    <select name="status[]" class="form-select" id="">
+                                        <option value="">Select Status</option>
+                                        <option value="C">C - CHECKED</option>
+                                        <option value="D">D - DONE</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    <input type="text" name="remarks[]"  class="form-control" placeholder="Remarks" >
+                                </td>
+                            </tr>
+
+                             {{--stp TANKS --}}
+                            <tr>
+                                <th scope="row">32 </th>
+                                <td><b>STP TANKS</b></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <th scope="row"></th>
+                                <td>AIR DOWNFEED PIPES</td>
+                                <td></td>
+                                <td>
+                                    <select name="status[]" class="form-select" id="">
+                                       <option value="">Select Status</option>
+                                        <option value="OG">OG - OPERATION AND IN GOOD CONDITION</option>
+                                        <option value="OR">OR - OPERATION BUT NEED MINOR REPAIR</option>
+                                        <option value="NO">NO - NOT OPERATION</option>
+                                        <option value="FR">FR - FOR REPLACEMENT</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    <input type="text" name="remarks[]"  class="form-control" placeholder="Remarks" >
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row"></th>
+                                <td>AIR DIFFUSERS</td>
+                                <td></td>
+                                <td>
+                                    <select name="status[]" class="form-select" id="">
+                                        <option value="">Select Status</option>
+                                        <option value="OG">OG - OPERATION AND IN GOOD CONDITION</option>
+                                        <option value="OR">OR - OPERATION BUT NEED MINOR REPAIR</option>
+                                        <option value="NO">NO - NOT OPERATION</option>
+                                        <option value="FR">FR - FOR REPLACEMENT</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    <input type="text" name="remarks[]"  class="form-control" placeholder="Remarks" >
+                                </td>
+                            </tr>
+                             <tr>
+                                <th scope="row"></th>
+                                <td>PIPE SUPPORTS</td>
+                                <td></td>
+                                <td>
+                                    <select name="status[]" class="form-select" id="">
+                                        <option value="">Select Status</option>
+                                        <option value="OG">OG - OPERATION AND IN GOOD CONDITION</option>
+                                        <option value="OR">OR - OPERATION BUT NEED MINOR REPAIR</option>
+                                        <option value="NO">NO - NOT OPERATION</option>
+                                        <option value="FR">FR - FOR REPLACEMENT</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    <input type="text" name="remarks[]"  class="form-control" placeholder="Remarks" >
+                                </td>
+                            </tr>
+
+                             {{--STP AREA --}}
+                            <tr>
+                                <th scope="row">33 </th>
+                                <td><b>STP AREA</b></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <th scope="row"></th>
+                                <td>WASH FLOORS, WALLS OF DUSTS AND COBWEBS</td>
+                                <td></td>
+                                <td>
+                                    <select name="status[]" class="form-select" id="">
+                                        <option value="">Select Status</option>
+                                        <option value="C">C - CHECKED</option>
+                                        <option value="D">D - DONE</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    <input type="text" name="remarks[]"  class="form-control" placeholder="Remarks" >
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row"></th>
+                                <td>CLEAN THE AREA</td>
+                                <td></td>
+                                <td>
+                                    <select name="status[]" class="form-select" id="">
+                                        <option value="">Select Status</option>
+                                        <option value="C">C - CHECKED</option>
+                                        <option value="D">D - DONE</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    <input type="text" name="remarks[]"  class="form-control" placeholder="Remarks" >
+                                </td>
+                            </tr>
+                            
+
 
 
 
@@ -2839,6 +3126,159 @@
                                     <td><span id="status_91"></span></td>
                                     <td><span id="remarks_91"></span></td>
                                 </tr>
+
+                                {{-- CCT ULTRASONIC FLOWMETER (EFFLUENT) --}}
+                                <tr>
+                                  <th scope="row">28</th>
+                                  <td><b>CCT ULTRASONIC FLOWMETER (EFFLUENT)</b></td>
+                                  <td></td>
+                                  <td></td>
+                                  <td></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row"></th>
+                                    <td>ULTRASONIC OPERATION</td>
+                                    <td><span id="code_92"></span></td>
+                                    <td><span id="status_92"></span></td>
+                                    <td><span id="remarks_92"></span></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row"></th>
+                                    <td>ELECTRIC COMPONENTS WITHIN MCC PANEL</td>
+                                    <td><span id="code_93"></span></td>
+                                    <td><span id="status_93"></span></td>
+                                    <td><span id="remarks_93"></span></td>
+                                </tr>
+
+                                 {{-- SBR 1 ULTRASONIC FLOWMETER (INFLUENT) --}}
+                                <tr>
+                                  <th scope="row">29</th>
+                                  <td><b>SBR 1 ULTRASONIC FLOWMETER (INFLUENT)</b></td>
+                                  <td></td>
+                                  <td></td>
+                                  <td></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row"></th>
+                                    <td>ULTRASONIC OPERATION</td>
+                                    <td><span id="code_94"></span></td>
+                                    <td><span id="status_94"></span></td>
+                                    <td><span id="remarks_94"></span></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row"></th>
+                                    <td>ELECTRIC COMPONENTS WITHIN MCC PANEL</td>
+                                    <td><span id="code_95"></span></td>
+                                    <td><span id="status_95"></span></td>
+                                    <td><span id="remarks_95"></span></td>
+                                </tr>
+
+                                 {{-- SBR 2 ULTRASONIC FLOWMETER (INFLUENT) --}}
+                                <tr>
+                                  <th scope="row">30</th>
+                                  <td><b>SBR 2 ULTRASONIC FLOWMETER (INFLUENT)</b></td>
+                                  <td></td>
+                                  <td></td>
+                                  <td></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row"></th>
+                                    <td>ULTRASONIC OPERATION</td>
+                                    <td><span id="code_96"></span></td>
+                                    <td><span id="status_96"></span></td>
+                                    <td><span id="remarks_96"></span></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row"></th>
+                                    <td>ELECTRIC COMPONENTS WITHIN MCC PANEL</td>
+                                    <td><span id="code_97"></span></td>
+                                    <td><span id="status_97"></span></td>
+                                    <td><span id="remarks_97"></span></td>
+                                </tr>
+
+                                {{-- MCC PANEL --}}
+                                <tr>
+                                  <th scope="row">31</th>
+                                  <td><b>MCC PANEL</b></td>
+                                  <td></td>
+                                  <td></td>
+                                  <td></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row"></th>
+                                    <td>INSPECT & CHECK ELECTRICAL CONTROLS, COMPONENTS</td>
+                                    <td><span id="code_98"></span></td>
+                                    <td><span id="status_98"></span></td>
+                                    <td><span id="remarks_98"></span></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row"></th>
+                                    <td>RE-TIGHTENED SCREW, BOLTS, MOUNTING CONNECTION</td>
+                                    <td><span id="code_99"></span></td>
+                                    <td><span id="status_99"></span></td>
+                                    <td><span id="remarks_99"></span></td>
+                                </tr>
+                                 <tr>
+                                    <th scope="row"></th>
+                                    <td>CLEAN</td>
+                                    <td><span id="code_100"></span></td>
+                                    <td><span id="status_100"></span></td>
+                                    <td><span id="remarks_100"></span></td>
+                                </tr>
+
+                                {{-- stp TANKS --}}
+                                <tr>
+                                  <th scope="row">32</th>
+                                  <td><b>STP TANKS</b></td>
+                                  <td></td>
+                                  <td></td>
+                                  <td></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row"></th>
+                                    <td>AIR DOWNFEED PIPES</td>
+                                    <td><span id="code_101"></span></td>
+                                    <td><span id="status_101"></span></td>
+                                    <td><span id="remarks_101"></span></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row"></th>
+                                    <td>AIR DIFFUSERS</td>
+                                    <td><span id="code_102"></span></td>
+                                    <td><span id="status_102"></span></td>
+                                    <td><span id="remarks_102"></span></td>
+                                </tr>
+                                 <tr>
+                                    <th scope="row"></th>
+                                    <td>PIPE SUPPORTS</td>
+                                    <td><span id="code_103"></span></td>
+                                    <td><span id="status_103"></span></td>
+                                    <td><span id="remarks_103"></span></td>
+                                </tr>
+
+                                 {{-- stp AREAA --}}
+                                <tr>
+                                  <th scope="row">32</th>
+                                  <td><b>STP AREA</b></td>
+                                  <td></td>
+                                  <td></td>
+                                  <td></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row"></th>
+                                    <td>WASH FLOORS, WALLS OF DUSTS AND COBWEBS</td>
+                                    <td><span id="code_104"></span></td>
+                                    <td><span id="status_104"></span></td>
+                                    <td><span id="remarks_104"></span></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row"></th>
+                                    <td>CLEAN THE AREA</td>
+                                    <td><span id="code_105"></span></td>
+                                    <td><span id="status_105"></span></td>
+                                    <td><span id="remarks_105"></span></td>
+                                </tr>
+                                 
 
 
 

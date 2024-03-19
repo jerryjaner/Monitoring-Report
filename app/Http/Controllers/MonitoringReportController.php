@@ -68,7 +68,7 @@ class MonitoringReportController extends Controller
                         <td>' . $data->id. '</td>
                         <td>'.Carbon::parse($data->date)->format('M d Y').'</td>
                         <td>
-                            <a href="#" id="' . $data->id . '" class="text-default  btn btn-success btn-sm mx-1 edit" data-bs-toggle="modal" data-bs-target="#edit">Edit</a>
+                            <a href="#" id="' . $data->id . '" class="text-default  btn btn-success btn-sm mx-1 edit" data-bs-toggle="modal" data-bs-target="#edit">View</a>
                             
                          </td>
                     </tr>';
