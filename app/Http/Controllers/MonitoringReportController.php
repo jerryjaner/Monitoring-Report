@@ -68,8 +68,7 @@ class MonitoringReportController extends Controller
                         <td>' . $data->id. '</td>
                         <td>'.Carbon::parse($data->date)->format('M d Y').'</td>
                         <td>
-                            <a href="#" id="' . $data->id . '" class="text-default  btn btn-success btn-sm mx-1 edit" data-bs-toggle="modal" data-bs-target="#edit">View</a>
-                            
+                            <a href="#" id="'. $data->id .'" class="text-default  btn btn-success btn-sm mx-1 edit" data-bs-toggle="modal" data-bs-target="#edit">View</a>
                          </td>
                     </tr>';
             }
@@ -78,6 +77,7 @@ class MonitoringReportController extends Controller
             echo $output;
         }
         else {
+            
             echo '<h1 class="text-center text-secondary my-5">No record present in the database!</h1>';
         }
 
@@ -86,7 +86,6 @@ class MonitoringReportController extends Controller
     public function edit(Request $request) {
         
         $data = MonitoringReport::find($request->id);
-
         $decodedData = json_decode($data->reports_data, true); 
 
         return response()->json(['id' => $data->id, 'decodedData' => $decodedData]);

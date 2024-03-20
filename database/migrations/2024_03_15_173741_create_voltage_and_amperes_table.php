@@ -13,17 +13,8 @@ return new class extends Migration
     {
         Schema::create('voltage_and_amperes', function (Blueprint $table) {
             $table->id();
-            $table->string('ckt_no')->nullable();
-            $table->string('load_description');
-            $table->string('breaker_rating_AT')->nullable();
-            $table->string('breaker_rating_AF')->nullable();
-            $table->string('breaker_rating_P')->nullable();
-            $table->string('actual_ampere_L1')->nullable();
-            $table->string('actual_ampere_L2')->nullable();
-            $table->string('actual_ampere_L3')->nullable();
-            $table->string('actual_voltage_L1_L2')->nullable();
-            $table->string('actual_voltage_L2_L3')->nullable();
-            $table->string('actual_voltage_L3_L1')->nullable();
+            $table->json('voltage_amperes_report_data');
+            $table->date('date');
             $table->timestamps();
         });
     }

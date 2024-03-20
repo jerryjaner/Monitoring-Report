@@ -11,6 +11,22 @@
     overflow-x: hidden;
     overflow-y: auto;
 }
+.line {
+    border-bottom: 1px solid black; /* Add a solid black line */
+    margin: 0; /* Remove default margin */
+    padding: 5px 0; /* Adjust padding as needed */
+    width: 30%; /* Make the line span the entire width */
+}
+
+    @media print{
+        .line {
+            border-bottom: 1px solid black !important; 
+            margin: 0  !important; 
+            padding: 5px 0  !important; 
+            width: 30%  !important; 
+    }
+}
+
 
 </style>
 <div class="content-header">
@@ -2201,7 +2217,7 @@
     <div class="modal-dialog modal-xl modal-dialog-scrollable">
         <div class="modal-content">
           <div class="modal-header">
-              <h5 class="modal-title text-primary" id="exampleModalLabel">Create</h5>
+              <h5 class="modal-title text-primary" id="exampleModalLabel">View</h5>
           </div>
           <form action=""  id="" enctype="multipart/form-data">
               @csrf
@@ -3278,8 +3294,28 @@
                                     <td><span id="status_105"></span></td>
                                     <td><span id="remarks_105"></span></td>
                                 </tr>
-                                 
-
+                                <tr>
+                                <th colspan="5" class="">
+                                    <div class="row">
+                                        <div class="mt-4">
+                                            <h6><b>OPERATOR ON DUTY: </b></h6>
+                                            <p class="line"></p>
+                                        </div>
+                                        <div class="mt-4">
+                                            <h6><b>MAINTENANCE BY: </b></h6>
+                                            <p class="line"></p>
+                                        </div>
+                                        <div class="mt-4">
+                                            <h6><b>VERIFY AND ACCEPT BY: </b></h6>
+                                           
+                                        </div>
+                                        <div class="mt-4">
+                                            <p class="line"></p>
+                                            <h6><b>NUSTAR STP SUPERVISOR / DUTY ENGINEER </b></h6>
+                                        </div>
+                                    </div>
+                                </th>
+                            </tr>
 
 
 
@@ -3300,43 +3336,22 @@
 </div>
 
 
-
 <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.17.0/xlsx.full.min.js"></script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js'></script>
 
-
+{{-- Print --}}
 <script>
-    document.getElementById("btnPrint").onclick = function () {
-        // Hide content outside the modal
-        var outsideContent = document.querySelector('.content');
-        outsideContent.style.display = 'none';
+    document.getElementById("btnPrint").addEventListener("click", function() {
+        var printContents = document.getElementById("printThis").outerHTML;
+        var originalContents = document.body.innerHTML;
+        document.body.innerHTML = printContents;
+        window.print();
+        document.body.innerHTML = originalContents;
+    });
+</script>
 
-        // Hide other modals
-        var otherModals = document.querySelectorAll('.modal');
-        otherModals.forEach(function(modal) {
-            if (modal.id !== 'edit') {
-                modal.style.display = 'none';
-            }
-        });
-
-        // Hide AdminLTE footer before printing
-        var adminLTEFooter = document.querySelector('.main-footer');
-        adminLTEFooter.style.display = 'none';
-
-        // Print the table
-        printElement(document.getElementById("printThis"));
-
-        // Show content outside the modal
-        outsideContent.style.display = 'block';
-
-        // Show other modals again after printing
-        otherModals.forEach(function(modal) {
-            modal.style.display = 'block';
-        });
-
-        // Restore AdminLTE footer after printing
-        adminLTEFooter.style.display = 'block';
-    }
+{{-- EXCEL --}}
+<script>
 
     document.getElementById("btnExportExcel").onclick = function () {
         exportToExcel(document.getElementById("printThis"));
@@ -3376,15 +3391,16 @@
     XLSX.utils.book_append_sheet(wb, ws, "Sheet1");
     XLSX.writeFile(wb, filename);
 }
-
-</script>
+</script> 
 
 
 <script>
     $(document).ready(function () {
 
         $.ajaxSetup({
+
             headers: {
+                
                 'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
             }
         });
@@ -3529,7 +3545,6 @@
                             default:
                                 break;
                         }
-
 
                          // Set code value
                         $('#code_' + (index + 1)).text(item.code);

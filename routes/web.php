@@ -38,7 +38,7 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 Route::middleware('auth')->group(function () {
 
 
-    
+
     Route::get('/voltage-ampere', [VoltageAndAmpereController::class, 'index'])->name('voltage_ampere.index');
     Route::post('/voltage-ampere/store', [VoltageAndAmpereController::class, 'store'])->name('voltage_ampere.store');
     Route::get('/voltage-ampere/fetch', [VoltageAndAmpereController::class, 'fetch'])->name('voltage_ampere.fetch');
