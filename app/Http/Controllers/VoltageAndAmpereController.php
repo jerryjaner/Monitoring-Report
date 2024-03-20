@@ -77,7 +77,7 @@ class VoltageAndAmpereController extends Controller
                          <td> Voltage & Ampere Report</td>
                         <td>' . $data->date . '</td>
                         <td>
-                            <a href="#" id="' . $data->id . '" class="text-default  btn btn-success btn-sm mx-1 edit" data-bs-toggle="modal" data-bs-target="#edit">Edit</a>
+                            <a href="#" id="' . $data->id . '" class="text-default  btn btn-success btn-sm mx-1 edit" data-bs-toggle="modal" data-bs-target="#edit">View</a>
                         </td>
                     </tr>';
             }

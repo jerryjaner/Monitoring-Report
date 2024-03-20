@@ -371,7 +371,7 @@
     <div class="modal-dialog modal-xl">
       <div class="modal-content">
         <div class="modal-header">
-            <h5 class="modal-title text-primary" id="exampleModalLabel">Create</h5>
+            <h5 class="modal-title text-primary" id="exampleModalLabel">View</h5>
         </div>
        
             <div class="modal-body p-4 bg-light" style="max-height: 70vh; overflow-y: auto;">
