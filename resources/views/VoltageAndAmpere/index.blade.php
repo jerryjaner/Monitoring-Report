@@ -35,7 +35,6 @@
                        </button>
                     </div>
                     <div class="card-body" id="voltage_ampere_data">
-
                         <h1 class="text-center text-secondary my-5">Loading...</h1>
                     </div>
                 </div>
