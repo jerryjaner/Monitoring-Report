@@ -64,8 +64,8 @@ class VoltageAndAmpereController extends Controller
                     <thead>
                     <tr>
                         <th>No</th>
-                        <th>Date</th>
                         <th>Report Name</th>
+                        <th>Report Date</th>
                         <th>Action</th>
                     </tr>
                     </thead>
@@ -75,9 +75,10 @@ class VoltageAndAmpereController extends Controller
                     '<tr>
                         <td>' . $i++ . '</td>
                          <td> Voltage & Ampere Report</td>
-                        <td>' . $data->date . '</td>
+                        <td>' .Carbon::parse($data->date)->format('M d, Y'). '</td>
                         <td>
                             <a href="#" id="' . $data->id . '" class="text-default  btn btn-success btn-sm mx-1 edit" data-bs-toggle="modal" data-bs-target="#edit">View</a>
+                            <a href="#" id="'. $data->id .'" class="text-default  btn btn-danger btn-sm mx-1 delete">Delete</a>
                         </td>
                     </tr>';
             }
@@ -100,6 +101,20 @@ class VoltageAndAmpereController extends Controller
 
 	
 	}
+
+    public function delete(Request $request){
+
+       VoltageAndAmpere::find($request->id); 
+       VoltageAndAmpere::destroy($request->id);
+
+       return response()->json([
+
+            'status' => 200,
+            'msg' => 'Deleted Successfully'
+
+       ]);
+
+   }
 
    
 }

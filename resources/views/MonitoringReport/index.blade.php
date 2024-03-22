@@ -2218,6 +2218,7 @@
         <div class="modal-content">
           <div class="modal-header">
               <h5 class="modal-title text-primary" id="exampleModalLabel">View</h5>
+               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
           <form action=""  id="" enctype="multipart/form-data">
               @csrf
@@ -3340,6 +3341,21 @@
 <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js'></script>
 
 {{-- Print --}}
+
+{{-- Print --}}
+{{-- <script>
+    document.getElementById("btnPrint").addEventListener("click", function() {
+        var printContents = document.getElementById("printThis").outerHTML;
+        var originalContents = document.body.innerHTML;
+        document.body.innerHTML = printContents;
+        window.print();
+        document.body.innerHTML = originalContents;
+
+        location.reload();
+    });
+</script>
+ --}}
+
 <script>
     document.getElementById("btnPrint").addEventListener("click", function() {
         var printContents = document.getElementById("printThis").outerHTML;
@@ -3347,8 +3363,13 @@
         document.body.innerHTML = printContents;
         window.print();
         document.body.innerHTML = originalContents;
+        location.reload();
+        
     });
 </script>
+
+
+
 
 {{-- EXCEL --}}
 <script>
@@ -3560,6 +3581,43 @@
         });
 
        
+        $(document).on('click', '.delete', function(e) {
+            e.preventDefault();
+            let id = $(this).attr('id');
+            let csrf = '{{ csrf_token() }}';
+            Swal.fire({
+                title: 'Are you sure?',
+                text: "You won't be able to revert this!",
+                icon: 'warning',
+                showCancelButton: true,
+                confirmButtonColor: '#3085d6',
+                cancelButtonColor: '#d33',
+                confirmButtonText: 'Yes, delete it!'
+            })
+            .then((result) => {
+                if (result.isConfirmed) {
+                    $.ajax({
+                        url: '{{ route('monitoring_report.delete') }}',
+                        method: 'delete',
+                        data: {
+                            id: id,
+                            _token: csrf
+                        },
+                        success: function(response) {
+                            console.log(response);
+                            alldata();
+                            Swal.fire({
+                                icon: 'success',
+                                title: 'Deleted Successfully.',
+                                showConfirmButton: false,
+                                timer: 1700,
+                            })
+                        }
+                    });
+                }
+            })
+        });
+
 
     });
 </script>

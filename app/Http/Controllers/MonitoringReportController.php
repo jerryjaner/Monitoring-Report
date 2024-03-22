@@ -57,7 +57,8 @@ class MonitoringReportController extends Controller
                     <thead>
                     <tr>
                         <th>No</th>
-                        <th>Monitoring Report</th>
+                        <th>Report Name</th>
+                        <th>Monitoring Date</th>
                         <th>Action</th>
                     </tr>
                     </thead>
@@ -66,9 +67,12 @@ class MonitoringReportController extends Controller
 
                 $output .= '<tr>
                         <td>' . $data->id. '</td>
-                        <td>'.Carbon::parse($data->date)->format('M d Y').'</td>
+                        <td> Monitoring Report</td>
+                        <td>'.Carbon::parse($data->date)->format('M d, Y').'</td>
                         <td>
                             <a href="#" id="'. $data->id .'" class="text-default  btn btn-success btn-sm mx-1 edit" data-bs-toggle="modal" data-bs-target="#edit">View</a>
+
+                             <a href="#" id="'. $data->id .'" class="text-default  btn btn-danger btn-sm mx-1 delete">Delete</a>
                          </td>
                     </tr>';
             }
@@ -91,6 +95,22 @@ class MonitoringReportController extends Controller
         return response()->json(['id' => $data->id, 'decodedData' => $decodedData]);
     
     }
+
+
+
+   public function delete(Request $request){
+
+       MonitoringReport::find($request->id); 
+       MonitoringReport::destroy($request->id);
+
+       return response()->json([
+
+            'status' => 200,
+            'msg' => 'Deleted Successfully'
+
+       ]);
+
+   }
     
 
 }

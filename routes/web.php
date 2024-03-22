@@ -44,11 +44,12 @@ Route::middleware('auth')->group(function () {
     Route::get('/voltage-ampere/fetch', [VoltageAndAmpereController::class, 'fetch'])->name('voltage_ampere.fetch');
     Route::get('/voltage-ampere/edit', [VoltageAndAmpereController::class, 'edit'])->name('voltage_ampere.edit');
     Route::post('/voltage-ampere/update', [VoltageAndAmpereController::class, 'update'])->name('voltage_ampere.update');
+    Route::delete('/voltage-ampere/delete', [VoltageAndAmpereController::class, 'delete'])->name('voltage_ampere.delete');
 
     Route::get('/monitoring', [MonitoringReportController::class, 'index'])->name('monitoring_report.index');
     Route::post('/monitoring/store', [MonitoringReportController::class, 'store'])->name('monitoring_report.store');
     Route::get('/monitoring/fetch', [MonitoringReportController::class, 'fetch'])->name('monitoring_report.fetch');
     Route::get('/monitoring/edit', [MonitoringReportController::class, 'edit'])->name('monitoring_report.edit');
-
+    Route::delete('/monitoring/delete', [MonitoringReportController::class, 'delete'])->name('monitoring_report.delete');
 
 });
