@@ -1,14 +1,14 @@
 {
-    "name": "Brahms GlobalTech INC",
-    "short_name": "Brahms",
+    "name": "NUSTAR RESORT & CASINO",
+    "short_name": "NUSTAR",
     "start_url": "/index.php",
     "background_color": "#6777ef",
-    "description": "Brahms GlobalTech INC",
+    "description": "NUSTAR RESORT & CASINO",
     "display": "fullscreen",
     "theme_color": "#6777ef",
     "icons": [
         {
-            "src": "logo.PNG",
+            "src": "logo_nustar.png",
             "sizes": "512x512",
             "type": "image/png",
             "purpose": "any maskable"

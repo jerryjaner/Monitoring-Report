@@ -1,13 +1,17 @@
 @extends('layouts.guest')
 
 @section('content')
-    <div class="card-body login-card-body">
-        <div class="text-center mb-4">
-            <img src="{{ asset('logo.png') }}" alt="Logo"  width="100">
-            
-        </div>
-         
+<style type="text/css">
+    .login-logo {
+        max-width: 100%;
+        height: auto;
+    }
 
+</style>
+    <div class="card-body login-card-body">
+        <div class="text-center mb-1">
+            <img src="{{ asset('nustar_logo.jpg') }}" alt="Logo" class="login-logo">
+        </div>
         <p class="login-box-msg">{{ __('Sign in to start your session') }}</p>
         <form action="{{ route('login') }}" method="post">
             @csrf
